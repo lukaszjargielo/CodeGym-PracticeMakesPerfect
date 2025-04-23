@@ -6,6 +6,8 @@ One variable is not enough
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
+        int a = 1;
+        int b = 2;
+        String s = "text";
     }
 }
