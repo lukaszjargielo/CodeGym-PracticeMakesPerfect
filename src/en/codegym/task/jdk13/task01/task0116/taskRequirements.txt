@@ -1,0 +1,23 @@
+
+Change the program so that the variable name has the value "Amigo".
+
+Requirements:
+•	The variable name must be assigned a value immediately after it is declared.
+•	Two variables must be declared.
+•	The value of the variable text can't be changed.
+•	You can't change the screen output command.
+•	The program should display "Hello, Amigo!"
+
+package en.codegym.task.jdk13.task01.task0116;
+
+/* 
+Let's change the code
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        String name = "Ellie";
+        String text = "Hello, " + name + "!";
+        System.out.println(text);
+    }
+}
