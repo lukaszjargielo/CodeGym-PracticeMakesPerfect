@@ -6,7 +6,7 @@ Let's change the code
 
 public class Solution {
     public static void main(String[] args) {
-        String name = "Ellie";
+        String name = "Amigo";
         String text = "Hello, " + name + "!";
         System.out.println(text);
     }
