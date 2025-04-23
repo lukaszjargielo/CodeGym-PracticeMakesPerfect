@@ -5,7 +5,9 @@ Kiss my shiny metal rear actuator
 */
 
 public class Solution {
+
+    private static String text = "Kiss my shiny metal rear actuator!";
     public static void main(String[] args) {
-        //write your code here
+        System.out.println(text);
     }
 }
