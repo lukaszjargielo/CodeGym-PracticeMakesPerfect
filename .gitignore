@@ -1,0 +1,55 @@
+# === Java build files ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Logs ===
+*.log
+
+# === IDEs ===
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.csettings/
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# === OS / system files ===
+.DS_Store
+Thumbs.db
+
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Maven ===
+target/
+
+# === CodeGym specific (if using their downloadable projects) ===
+# Sometimes they include compiled files or output folders
+codegym.task/protected/
+codegym.task/bin/
+codegym.task/out/
+icons/
+logs/
+sdk/
+
+# === Backup files ===
+*~
+*.swp
+*.swo
+
+# === Optional: ignore solution checker reports if generated ===
+solution-report.txt
+check-result.txt
