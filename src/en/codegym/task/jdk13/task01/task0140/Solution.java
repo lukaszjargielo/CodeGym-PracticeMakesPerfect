@@ -7,7 +7,11 @@ Display the square of a number
 public class Solution {
     public static int number = 25;
 
+    public static void squaredNumber(int number) {
+        System.out.println(number * number);
+    }
+
     public static void main(String[] args) {
-        //write your code here
+squaredNumber(number);
     }
 }
