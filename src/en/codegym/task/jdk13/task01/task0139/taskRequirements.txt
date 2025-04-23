@@ -1,0 +1,25 @@
+
+For human students, the first program displays the phrase "Hello World!"
+Do you know what brutal robot programmers write?
+Just don't tell anyone: "Kiss my shiny metal rear actuator!"
+
+In this task, see what a real coding robot feels like by writing a program that will display this phrase on the screen.
+
+Requirements:
+•	The program should output text.
+•	The text should begin with "Kiss".
+•	The text must end with an exclamation point.
+•	The text should consist of 34 characters, including spaces and an exclamation point.
+•	The displayed text must match the task conditions.
+
+package en.codegym.task.jdk13.task01.task0139;
+
+/* 
+Kiss my shiny metal rear actuator
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        //write your code here
+    }
+}
