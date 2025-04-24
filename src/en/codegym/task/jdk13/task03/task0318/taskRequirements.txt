@@ -1,0 +1,30 @@
+Enter a name and number from the keyboard, and then display the line: "name" will take over the world in "number" years. Mwa-ha-ha!
+
+
+Example:
+Kevin will take over the world in 8 years. Mwa-ha-ha!
+
+The order in which the data is input matters a lot.
+
+Requirements:
+•	The program should output text.
+•	The program must read data from the keyboard.
+•	The displayed text must contain the entered name.
+•	The displayed text must contain the entered number.
+•	The displayed text must fully match the task conditions.
+
+package en.codegym.task.jdk13.task03.task0318;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+How to take over the world
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
