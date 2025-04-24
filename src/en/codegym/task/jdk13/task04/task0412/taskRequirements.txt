@@ -1,0 +1,28 @@
+
+Use the keyboard to enter a number. If the number is positive, then double it. If the number is negative, add one.
+If the entered number is zero, display zero.
+Display the result on the screen.
+
+Requirements:
+•	The program should read a number from the keyboard.
+•	The program must display a number on the screen.
+•	If the entered number is positive, double it and display the result.
+•	If the entered number is negative, increase it by one and display the result.
+•	If the entered number is zero, display zero.
+
+package en.codegym.task.jdk13.task04.task0412;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+Positive and negative numbers
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+
+}
