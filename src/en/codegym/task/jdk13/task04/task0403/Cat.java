@@ -8,7 +8,7 @@ public class Cat {
     private String name = "nameless cat";
 
     public void setName(String name) {
-        //write your code here
+        this.name = name;
 
     }
 
