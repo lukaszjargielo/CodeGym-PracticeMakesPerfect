@@ -1,0 +1,24 @@
+
+Use the keyboard to enter the name and age. If the age is less than 18, display "Grow up a little more".
+
+Requirements:
+•	The program should read data from the keyboard twice.
+•	The program should use System.out.println() or System.out.print().
+•	If the age is less than 18, display "Grow up a little more" and nothing else.
+•	If the age is greater than or equal to 18, don't display anything.
+
+package en.codegym.task.jdk13.task04.task0422;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+18+
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
