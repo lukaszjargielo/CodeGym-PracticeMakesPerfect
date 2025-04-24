@@ -9,8 +9,15 @@ Positive and negative numbers
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //write your code here
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int intputNumber = Integer.parseInt(reader.readLine());
 
+        if(intputNumber > 0) {
+            intputNumber = intputNumber*2;
+        } else if (intputNumber < 0){
+            intputNumber = intputNumber + 1;
+        }
+        System.out.println(intputNumber);
     }
 
 }
