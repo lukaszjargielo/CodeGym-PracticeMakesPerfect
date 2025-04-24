@@ -17,7 +17,7 @@ public class Solution {
         public static int applePrice = 0;
 
         public static void addPrice(int applePrice) {
-            //write your code here
+            Apple.applePrice += applePrice;
 
         }
     }
