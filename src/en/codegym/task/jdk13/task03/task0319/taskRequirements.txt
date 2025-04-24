@@ -1,0 +1,29 @@
+Use the keyboard to separately enter the name, number1, and number2. Display the following phrase:
+"name" will receive "number1" in "number2" years.
+
+Here's an example:
+Nick will receive 10000 in 5 years.
+
+Requirements:
+•	The program should output text.
+•	The program must read data from the keyboard.
+•	The displayed text must contain the entered name.
+•	The displayed text must contain the entered number1.
+•	The displayed text must contain the entered number2.
+•	The displayed text must fully match the task conditions.
+
+package en.codegym.task.jdk13.task03.task0319;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+Predictions
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
