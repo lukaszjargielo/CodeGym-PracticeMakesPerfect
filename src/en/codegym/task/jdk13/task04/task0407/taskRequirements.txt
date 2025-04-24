@@ -1,0 +1,31 @@
+Write a code that correctly counts the number of created cats (count) and correctly displays the count on the screen.
+
+Requirements:
+•	The program should display text on the screen.
+•	Don't change the line responsible for screen output.
+•	The Cat class must have only one count variable.
+•	The Cat class's variable count must have the public modifier, be an int, be static, and be initialized to zero.
+•	The main method should have only two initialized Cat variables.
+•	The variable count must store the actual number of cat objects created.
+
+package en.codegym.task.jdk13.task04.task0407;
+
+/* 
+Count the number of cats
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Cat cat1 = new Cat();
+        //write your code here
+
+        Cat cat2 = new Cat();
+        //write your code here
+
+        System.out.println("The cat count is " + Cat.count);
+    }
+
+    public static class Cat {
+        public static int count = 0;
+    }
+}
