@@ -9,7 +9,11 @@ How to take over the world
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //write your code here
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String text = "%s will take over the world in %d years. Mwa-ha-ha!";
+        String name = reader.readLine();
+        int age = Integer.parseInt(reader.readLine());
 
+        System.out.printf(text,name,age);
     }
 }
