@@ -12,7 +12,15 @@ public class Solution {
     }
 
     public static void compare(int a) {
-        //write your code here
+        String text = "The number is %s than 5\n";
+        String less = "less";
+        String equalOrGrater = "equal or greater";
+
+        if(a < 5) {
+            System.out.printf(text, less);
+        } else {
+            System.out.printf(text, equalOrGrater);
+        }
 
     }
 }
