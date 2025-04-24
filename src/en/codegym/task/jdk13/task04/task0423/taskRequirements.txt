@@ -1,0 +1,24 @@
+
+Use the keyboard to enter the name and age. If the age is more than 20, display "18 is old enough".
+
+Requirements:
+•	The program should read lines from the keyboard.
+•	The program should use System.out.println() or System.out.print().
+•	If the age is more than 20, display "18 is old enough" and nothing else.
+•	If the age is less than or equal to 20, don't display anything.
+
+package en.codegym.task.jdk13.task04.task0423;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+Bouncer policy
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
