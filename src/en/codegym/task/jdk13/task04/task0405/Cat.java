@@ -8,7 +8,7 @@ public class Cat {
     private static int catCount = 0;
 
     public static void setCatCount(int catCount) {
-        //write your code here
+        Cat.catCount = catCount;
 
     }
 
