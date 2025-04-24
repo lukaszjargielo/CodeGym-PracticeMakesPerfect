@@ -1,0 +1,36 @@
+
+Implement the checkInterval method. The method should check whether an integer is between 50 and 100, not inclusive, and report the result on the screen in the following form: "The number a is not in the interval." or "The number a is in the interval.", where a is the method argument.
+
+Example for 112:
+The number 112 is not in the interval.
+
+Example for 60:
+The number 60 is in the interval.
+
+Requirements:
+•	The program should display text on the screen.
+•	The main method should not call System.out.println or System.out.print().
+•	The main method must call the checkInterval method.
+•	The checkInterval method must be static void.
+•	The checkInterval method should display text on the screen in accordance with the task conditions.
+
+package en.codegym.task.jdk13.task04.task0410;
+
+/* 
+Interval
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        checkInterval(60);
+        checkInterval(112);
+        checkInterval(10);
+    }
+
+    public static void checkInterval(int a) {
+        //write your code here
+        System.out.println("The number " + a + " is in the interval.");
+        System.out.println("The number " + a + " is not in the interval.");
+
+    }
+}
