@@ -1,0 +1,15 @@
+package en.codegym.task.jdk13.task04.task0425;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+Quadrants
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
