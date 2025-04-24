@@ -12,9 +12,10 @@ public class Solution {
     }
 
     public static void checkInterval(int a) {
-        //write your code here
-        System.out.println("The number " + a + " is in the interval.");
-        System.out.println("The number " + a + " is not in the interval.");
-
+        if (a > 50 && a < 100) {
+            System.out.println("The number " + a + " is in the interval.");
+        } else {
+            System.out.println("The number " + a + " is not in the interval.");
+        }
     }
 }
