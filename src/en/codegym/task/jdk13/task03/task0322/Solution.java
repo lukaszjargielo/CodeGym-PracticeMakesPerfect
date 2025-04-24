@@ -9,7 +9,14 @@ Deep and pure love
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //write your code here
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String text = "%s + %s + %s = Pure love. Ooo la-la!";
+
+        String firstName = reader.readLine();
+        String secondName = reader.readLine();
+        String thirdName = reader.readLine();
+
+        System.out.printf(text, firstName, secondName, thirdName);
 
     }
 }
