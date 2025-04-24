@@ -1,0 +1,27 @@
+
+Write the setCatCount method. The method must set the number of cats (catCount).
+
+Requirements:
+•	The Cat class must have only one catCount variable.
+•	The variable catCount must be a static int, have a private access modifier, and be initialized to zero.
+•	The Cat class must have two methods: setCatCount and main.
+•	The Cat class's setCatCount method must set the value of the catCount variable equal to the passed argument.
+
+package en.codegym.task.jdk13.task04.task0405;
+
+/* 
+Setting the number of cats
+*/
+
+public class Cat {
+    private static int catCount = 0;
+
+    public static void setCatCount(int catCount) {
+        //write your code here
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
