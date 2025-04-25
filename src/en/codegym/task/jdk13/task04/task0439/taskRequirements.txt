@@ -1,0 +1,37 @@
+
+Enter a name from the keyboard and use a for loop to display the following 10 times:
+<name> loves me.
+
+Example output for the name "Scarlett":
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+Scarlett loves me.
+
+Requirements:
+•	The program should read the name from the keyboard.
+•	The program should display text on the screen.
+•	The program should display the text specified in the task 10 times.
+•	The program must use a for loop.
+
+package en.codegym.task.jdk13.task04.task0439;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+Chain letter
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
