@@ -9,7 +9,16 @@ You can't have too much of a good thing
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //write your code here
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String inputString = reader.readLine();
+        int number = Integer.parseInt(reader.readLine());
+
+        if(number > 0) {
+            while (number > 0) {
+                System.out.println(inputString);
+                number--;
+            }
+        }
 
     }
 }
