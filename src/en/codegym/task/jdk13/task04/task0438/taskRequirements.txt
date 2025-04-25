@@ -1,0 +1,24 @@
+
+Using a for loop to display:
+
+a horizontal line of 10 eights
+a vertical line of 10 eights (do not count any of the eights in the horizontal line as part of this vertical line).
+Requirements:
+•	The program should not read numbers from the keyboard.
+•	The program should display numbers on the screen.
+•	The program should display a horizontal line of 10 eights.
+•	The program should display a vertical line of 10 eights.
+•	The program must use a for loop.
+
+package en.codegym.task.jdk13.task04.task0438;
+
+/* 
+Drawing lines
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        //write your code here
+
+    }
+}
