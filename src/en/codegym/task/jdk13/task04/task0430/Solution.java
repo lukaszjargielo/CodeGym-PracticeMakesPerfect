@@ -6,7 +6,11 @@ package en.codegym.task.jdk13.task04.task0430;
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
+        int number = 1;
+        while (number<11) {
+            System.out.println(number);
+            number++;
+        }
 
     }
 }
