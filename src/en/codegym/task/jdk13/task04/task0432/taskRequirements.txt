@@ -1,0 +1,33 @@
+
+Use the keyboard to enter a string and a number N greater than 0.
+Use a while loop to display the string N times. Each value should be on a new line.
+
+Example input:
+abc
+2
+Example output:
+abc
+abc
+
+Requirements:
+•	The program should read the text from the keyboard.
+•	The program should display text on the screen.
+•	Each value should be displayed on a new line.
+•	The program should display the string N times.
+•	The program must use a while loop.
+
+package en.codegym.task.jdk13.task04.task0432;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+You can't have too much of a good thing
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
