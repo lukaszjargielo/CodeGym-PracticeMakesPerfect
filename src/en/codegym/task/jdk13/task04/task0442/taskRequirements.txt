@@ -1,0 +1,32 @@
+
+Let's write a program where we need to enter numbers from the keyboard, and as soon as -1 is entered, then we display the sum of all the entered numbers on the screen and exit the program.
+-1 should be included in the sum.
+
+Hint: One of the solutions to this problem uses the following construct:
+while (true) {
+int number = read the number;
+if (check whether the number is -1)
+break;
+}
+
+Requirements:
+•	The program should read the numbers from the keyboard.
+•	If the user enters -1, the program should display the sum of all entered numbers and then end.
+•	The program must calculate and display the sum of the entered numbers.
+•	The program must use a for, while, or do-while loop.
+
+package en.codegym.task.jdk13.task04.task0442;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+Adding
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+    }
+}
