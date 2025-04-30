@@ -14,7 +14,13 @@ public class Solution {
     public static void main(String[] args) {
         printArray();
 
-        //write your code here
+        for (int i = 0; i < chars.length; i++) {
+            for (int j = 0; j < chars[i].length; j++) {
+                if((i != 0) && (i != chars.length - 1) && (j != 0) && (j != chars[i].length - 1)) {
+                    chars[i][j] =  '-';
+                }
+            }
+        }
 
         printArray();
     }
@@ -29,3 +35,19 @@ public class Solution {
         System.out.println();
     }
 }
+
+/*
+Draft
+/*
+
+ chars[1] = new char[]{'j', '-', '-', '-', '-', 'l'};
+ chars[2] = new char[]{'m', '-', '-', '-', '-', 'r'};
+
+      for(int i = 1; i < chars.length-1`; i++) {
+            for (int j = 0; j < chars[i].length; j++) {
+                if(chars[i][j] >= 104 && chars[i][j] <= 107 || chars[i][j] >= 110 && chars[i][j] <= 113) {
+                    chars[i][j] = '-';
+                }
+            }
+        }
+*/
