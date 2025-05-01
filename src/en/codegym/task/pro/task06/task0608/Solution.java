@@ -9,5 +9,8 @@ public class Solution {
 
     }
 
-    //write your code here
+    public static long cube(long value){
+        return value * value * value;
+//      return (long) Math.pow(value, 3);
+    }
 }
