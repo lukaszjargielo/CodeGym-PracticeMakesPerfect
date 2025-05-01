@@ -12,6 +12,24 @@ public class Solution {
     public static int element = 5;
 
     public static void main(String[] args) {
-        //write your code here
+        int[] copy = Arrays.copyOf(array, array.length);
+        Arrays.sort(copy);
+        //Arrays.sort(array);
+        int i = Arrays.binarySearch(copy, element);
+        if (i >= 0) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
     }
 }
+
+/*
+Recommended solution
+     int[] copy = Arrays.copyOf(array, array.length);
+        Arrays.sort(copy);
+        int index = Arrays.binarySearch(copy, element);
+        System.out.println(index >= 0);
+    }
+}
+ */
