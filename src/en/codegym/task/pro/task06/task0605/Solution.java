@@ -4,6 +4,8 @@ package en.codegym.task.pro.task06.task0605;
 Correct order
 */
 
+import java.util.Arrays;
+
 public class Solution {
 
     public static void main(String[] args) {
@@ -14,7 +16,11 @@ public class Solution {
     }
 
     public static void reverseArray(int[] array) {
-        //write your code here
+        int[] intsCopy = Arrays.copyOf(array, array.length);
+        for (int i = 0, j = array.length - 1; i < array.length; i++, j--) {
+            array[i] = intsCopy[j];
+        }
+
     }
 
     public static void printArray(int[] array) {
@@ -24,3 +30,13 @@ public class Solution {
         System.out.println();
     }
 }
+/*
+Recommended solution
+   public static void reverseArray(int[] array) {
+        for (int i = 0; i < array.length / 2; i++) {
+            int temp = array[i];
+            array[i] = array[array.length - i - 1];
+            array[array.length - i - 1] = temp;
+        }
+    }
+ */
