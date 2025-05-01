@@ -13,11 +13,11 @@ public class Solution {
         createCrew(navigator, pilot, secondPilot, flightEngineer);
     }
 
-    public static void createCrew(String name1, String name2, String name3, String name4) {
+    public static void createCrew(String navigator, String pilot, String secondPilot, String flightEngineer) {
         System.out.println("The four who are to conquer the cosmos:");
-        System.out.println("Navigator: " + name1);
-        System.out.println("Pilot: " + name2);
-        System.out.println("Second pilot: " + name3);
-        System.out.println("Flight engineer:" + name4);
+        System.out.println("Navigator: " + navigator);
+        System.out.println("Pilot: " + pilot);
+        System.out.println("Second pilot: " + secondPilot);
+        System.out.println("Flight engineer:" + flightEngineer);
     }
 }
