@@ -13,11 +13,11 @@ public class Solution {
         printPersonInfo(firstName, lastName, favoriteDish);
     }
 
-    public static void printPersonInfo(String firstName, String lastName, String favouriteDish) {
+    public static void printPersonInfo(String name, String surname, String meal) {
         System.out.println("Short dossier:");
-        System.out.println("First name: " + firstName);
-        System.out.println("Last name: " + lastName);
-        System.out.println("Favorite dish: " + favouriteDish);
+        System.out.println("First name: " + name);
+        System.out.println("Last name: " + surname);
+        System.out.println("Favorite dish: " + meal);
     }
 
 }
