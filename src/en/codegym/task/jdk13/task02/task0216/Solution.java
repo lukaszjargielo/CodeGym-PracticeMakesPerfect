@@ -6,7 +6,8 @@ Minimum of three numbers
 
 public class Solution {
     public static int min(int a, int b, int c) {
-        //write your code here
+        int min = a < b ? a : b;
+        return min < c ? min : c;
     }
 
     public static void main(String[] args) {
