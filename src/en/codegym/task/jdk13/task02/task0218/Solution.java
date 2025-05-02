@@ -6,7 +6,8 @@ Repetition is the mother of all learning
 
 public class Solution {
     public static void print3(String text) {
-        //write your code here
+       String string = text + '\n';
+        System.out.print(string.repeat(3));
 
     }
 
