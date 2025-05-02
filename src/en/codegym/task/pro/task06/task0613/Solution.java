@@ -17,6 +17,6 @@ public class Solution {
 
     public static void printCityPopulation(String city, double population) {
         System.out.println("The population of " + city + " is " + population + " million.");
-        System.out.println("But in the most populous city, " + city + ", the population is " + population + " million.");
+        System.out.println("But in the most populous city, " + Solution.city + ", the population is " + Solution.population + " million.");
     }
 }
