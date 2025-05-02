@@ -6,7 +6,8 @@ Print three times
 
 public class Solution {
     public static void print3(String text) {
-      // write your code here
+        String string = text + ' ';
+        System.out.println(string.repeat(3));
 
     }
 
