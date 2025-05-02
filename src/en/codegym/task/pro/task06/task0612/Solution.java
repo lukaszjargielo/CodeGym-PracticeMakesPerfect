@@ -14,8 +14,8 @@ public class Solution {
         String elementSqrt = "The square root of ";
         for (int i = 0; i < array.length; i++) {
             int element = array[i];
-            double elementSqrt = Math.sqrt(element);
-            System.out.println(elementSqrt + element + " is " + elementSqrt);
+            double result = Math.round(Math.sqrt(element) * 10) / 10.0;
+            System.out.println(elementSqrt + element + " is " + result);
         }
     }
 }
