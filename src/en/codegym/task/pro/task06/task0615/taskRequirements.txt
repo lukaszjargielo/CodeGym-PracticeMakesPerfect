@@ -1,0 +1,19 @@
+
+Here is the Earth class — a collection of variables that describe certain characteristics of the planet Earth.
+Be sure that the variables of the Earth class are global constants. Don't forget to rename the variables so that they comply with code style conventions for global variables.
+
+Requirements:
+•	The Earth class's name variable needs to be changed into a global variable.
+•	The Earth class's square variable needs to be changed into a global variable.
+•	The Earth class's population variable needs to be changed into a global variable.
+•	The Earth class's equatorLength variable needs to be changed into a global variable.
+
+
+Here is the Earth class — a collection of variables that describe certain characteristics of the planet Earth.
+Be sure that the variables of the Earth class are global constants. Don't forget to rename the variables so that they comply with code style conventions for global variables.
+
+Requirements:
+•	The Earth class's name variable needs to be changed into a global variable.
+•	The Earth class's square variable needs to be changed into a global variable.
+•	The Earth class's population variable needs to be changed into a global variable.
+•	The Earth class's equatorLength variable needs to be changed into a global variable.
