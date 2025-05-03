@@ -6,10 +6,13 @@ Where does a Person come from?
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
+        Person person = new Person();
     }
 
     public static class Person {
-        //write your code here
+        private String name;
+        private int age;
+        private int weight;
+        private int money;
     }
 }
