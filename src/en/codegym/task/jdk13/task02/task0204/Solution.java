@@ -6,7 +6,10 @@ Family relations
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
+        Man man = new Man();
+        Woman woman = new Woman();
+        man.wife = woman;
+        woman.husband = man;
     }
 
     public static class Man {
