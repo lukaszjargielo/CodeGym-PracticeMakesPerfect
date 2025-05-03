@@ -15,8 +15,14 @@ public class Solution {
         chess.name = "Battleship";
         collection[0] = chess;
 
-        //write your code here
+        for (int i = 1; i < collection.length ; i++) {
+            collection[i] = new BoardGame();
+        }
 
+        collection[1].name = "Abalone";
+        collection[2].name = "Puerto Rico";
+        collection[3].name = "La cosa nostra";
+        collection[4].name = "Jaipur";
 
         System.out.println(Arrays.toString(collection));
     }
