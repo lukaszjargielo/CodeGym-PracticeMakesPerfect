@@ -1,0 +1,28 @@
+Create 3 Dog objects. Store each instance in a separate variable. Give them the names "Max", "Bella", and "Jack".
+
+Requirements:
+•	The program should not display text on the screen.
+•	The main method should have only three variables.
+•	The variables must be immediately assigned values.
+•	Each Dog object must be assigned a name.
+•	The Dog class must have a single variable called name.
+•	The Dog class should not have methods.
+
+package en.codegym.task.jdk13.task02.task0209;
+
+/* 
+Three dogs are a force
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Dog dog1 = new Dog();
+        dog1.name = "Max";
+
+        //write your code here
+    }
+
+    public static class Dog {
+        public String name;
+    }
+}
