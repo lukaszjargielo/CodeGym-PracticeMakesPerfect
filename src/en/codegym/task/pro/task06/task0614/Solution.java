@@ -5,7 +5,7 @@ Remembering geometry
 */
 
 public class Solution {
-    public static double pi = 3.14;
+    public static final double pi = 3.14;
     public static double radius = 2.5;
     public static double diameter = 5;
 
