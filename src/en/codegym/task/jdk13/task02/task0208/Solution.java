@@ -6,7 +6,9 @@ Cats are good
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
+       Cat mango = new Cat();
+       Cat litchi = new Cat();
+
     }
 
     public static class Cat {
