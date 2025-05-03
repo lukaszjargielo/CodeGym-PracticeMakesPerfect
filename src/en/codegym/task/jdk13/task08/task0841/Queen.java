@@ -8,7 +8,13 @@ public class Queen {
     public static void main(String[] args) {
         populate();
 
-        //write your code here
+        for (var worker : workers) {
+            worker.sendForFood();
+        }
+
+        for (var soldier : soldiers) {
+            soldier.sendIntoBattle();
+        }
 
     }
 
@@ -24,3 +30,15 @@ public class Queen {
         }
     }
 }
+/*
+Recommended solution
+for (int i = 0; i < workers.length; i++) {
+            Worker worker = workers[i];
+            worker.sendForFood();
+        }
+
+        for (int i = 0; i < soldiers.length; i++) {
+            Soldier soldier = soldiers[i];
+            soldier.sendIntoBattle();
+        }
+ */
