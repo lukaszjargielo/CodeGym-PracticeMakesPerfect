@@ -1,0 +1,41 @@
+
+Create a list of your top 5 favorite board games.
+
+Requirements:
+•	In the main method, you need to populate the collection array with BoardGame objects.
+•	Each BoardGame object must have a unique name (name field).
+
+package en.codegym.task.jdk13.task08.task0831;
+
+import java.util.Arrays;
+
+/* 
+Favorite board games
+*/
+
+public class Solution {
+
+    public static BoardGame[] collection = new BoardGame[5];
+
+    public static void main(String[] args) {
+        BoardGame chess = new BoardGame();
+        chess.name = "Battleship";
+        collection[0] = chess;
+
+        //write your code here
+
+
+        System.out.println(Arrays.toString(collection));
+    }
+}
+package en.codegym.task.jdk13.task08.task0831;
+
+public class BoardGame {
+
+    String name;
+
+    @Override
+    public String toString() {
+        return name;
+    }
+}
