@@ -6,7 +6,13 @@ Every animal should have an owner
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
+        Woman woman = new Woman();
+        Fish shark = new Fish();
+        shark.owner = woman;
+        Cat maineCoon = new Cat();
+        maineCoon.owner = woman;
+        Dog bulldog = new Dog();
+        bulldog.owner = woman;
     }
 
     public static class Cat {
