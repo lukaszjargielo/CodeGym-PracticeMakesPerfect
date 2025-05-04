@@ -5,6 +5,9 @@ Variety
 */
 
 public class Solution {
-    //write your code here
+    private int firstIndex = 0;
+    private int secondIndex = 1;
+    private String firstWord, secondWord;
+    private boolean isMonday = false, isSaturday = true;
 
 }
