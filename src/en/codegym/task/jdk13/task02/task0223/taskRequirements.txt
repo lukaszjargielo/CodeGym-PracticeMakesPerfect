@@ -1,0 +1,21 @@
+
+In the Solution class, create six variables:
+
+declare two of them using separate statements, and assign them some values immediately upon declaring them;
+declare two variables on one line, and do not assign anything to them;
+and declare two more variables on one line, and immediately upon declaration, assign them some values.
+Requirements:
+•	The Solution class should have two variables that are declared using separate statements and immediately initialized.
+•	The Solution class should have two variables that are declared using a single statement and not initialized.
+•	The Solution class should have two variables that are declared using a single statement and immediately initialized.
+
+package en.codegym.task.jdk13.task02.task0223;
+
+/* 
+Variety
+*/
+
+public class Solution {
+    //write your code here
+
+}
