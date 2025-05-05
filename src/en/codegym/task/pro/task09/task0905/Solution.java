@@ -13,12 +13,62 @@ public class Solution {
     }
 
     public static int toOctal(int decimalNumber) {
-        //write your code here
+        int i = 0;
+        int octalNumber = 0;
+        if (decimalNumber > 0) {
+            while (decimalNumber != 0) {
+                octalNumber = octalNumber + (decimalNumber % 8) * (int) Math.pow(10, i);
+                decimalNumber = decimalNumber / 8;
+                i++;
+            }
+            return octalNumber;
+        }
         return 0;
     }
 
     public static int toDecimal(int octalNumber) {
-        //write your code here
+        int i = 0;
+        int decimalNumber = 0;
+        if (octalNumber > 0) {
+            while (octalNumber != 0) {
+                decimalNumber = decimalNumber + (octalNumber % 10) * (int) Math.pow(8, i);
+                octalNumber = octalNumber / 10;
+                i++;
+            }
+            return decimalNumber;
+        }
         return 0;
     }
 }
+/*
+Recommended solution
+public static int toOctal(int decimalNumber) {
+        int octalNumber = 0;
+        if (decimalNumber <= 0) {
+            return octalNumber;
+        }
+
+        int i = 0;
+        while (decimalNumber != 0) {
+            octalNumber = (int) (octalNumber + (decimalNumber % 8) * Math.pow(10, i++));
+            decimalNumber = decimalNumber / 8;
+        }
+        return octalNumber;
+    }
+
+    public static int toDecimal(int octalNumber) {
+        int decimalNumber = 0;
+        if (octalNumber <= 0) {
+            return decimalNumber;
+        }
+
+        int i = 0;
+        while (octalNumber != 0) {
+            decimalNumber = (int) (decimalNumber + (octalNumber % 10) * Math.pow(8, i++));
+            octalNumber = octalNumber / 10;
+        }
+        return decimalNumber;
+    }
+}
+
+ */
