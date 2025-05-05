@@ -5,5 +5,9 @@ String literals
 */
 
 public class Solution {
-    public String text = "Always write code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. Martin Golding";
+    public String text = "Always write code as if " +
+            "the guy who ends up maintaining your code will be " +
+            "a violent psychopath " +
+            "who knows where you live. " +
+            "Martin Golding";
 }
