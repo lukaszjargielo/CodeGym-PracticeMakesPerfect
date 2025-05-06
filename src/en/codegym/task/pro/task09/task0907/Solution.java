@@ -15,12 +15,53 @@ public class Solution {
     }
 
     public static String toHex(int decimalNumber) {
-        //write your code here
-        return null;
+        String hexadecimal = "";
+       if(decimalNumber > 0) {
+           while (decimalNumber != 0) {
+               hexadecimal = HEX.charAt(decimalNumber % 16) + hexadecimal;
+               decimalNumber = decimalNumber / 16;
+           }
+       }
+        return  hexadecimal;
     }
 
     public static int toDecimal(String hexNumber) {
-        //write your code here
-        return 0;
+        int decimalNumber = 0;
+        if(hexNumber != null && !hexNumber.isEmpty()) {
+            for (int i = 0; i < hexNumber.length() ; i++) {
+                decimalNumber = 16 * decimalNumber + HEX.indexOf((hexNumber.charAt(i)));
+            }
+        }
+        return decimalNumber;
+        Integer.parseInt(hexNumber, 16);
     }
 }
+
+/*
+Recommended solution
+public static String toHex(int decimalNumber) {
+        String hexNumber = "";
+        if (decimalNumber <= 0) {
+            return hexNumber;
+        }
+
+        while (decimalNumber != 0) {
+            hexNumber = HEX.charAt(decimalNumber % 16) + hexNumber;
+            decimalNumber = decimalNumber / 16;
+        }
+        return hexNumber;
+    }
+
+    public static int toDecimal(String hexNumber) {
+        int decimalNumber = 0;
+        if (hexNumber == null) {
+            return decimalNumber;
+        }
+
+        for (int i = 0; i < hexNumber.length(); i++) {
+            decimalNumber = 16 * decimalNumber + HEX.indexOf(hexNumber.charAt(i));
+        }
+        return decimalNumber;
+    }
+}
+}*/
