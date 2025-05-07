@@ -15,12 +15,18 @@ public class Solution {
     }
 
     public static int getIndexOfFirstWord(String string, String word) {
-        //write your code here
-        return 0;
+        if((string != null && !string.isEmpty()) && (word != null && !word.isEmpty())) {
+            int index = string.indexOf(word);
+            return index;
+        }
+        return -1;
     }
 
     public static int getIndexOfLastWord(String string, String word) {
-        //write your code here
-        return 0;
+        if((string != null && !string.isEmpty()) && (word != null && !word.isEmpty())) {
+            int index = string.lastIndexOf(word);
+            return index;
+        }
+        return -1;
     }
 }
