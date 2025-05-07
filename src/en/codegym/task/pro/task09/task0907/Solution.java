@@ -33,7 +33,6 @@ public class Solution {
             }
         }
         return decimalNumber;
-        Integer.parseInt(hexNumber, 16);
     }
 }
 
