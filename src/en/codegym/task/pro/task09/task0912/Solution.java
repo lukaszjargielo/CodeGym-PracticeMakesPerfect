@@ -16,12 +16,48 @@ public class Solution {
     }
 
     public static String checkProtocol(String url) {
-        //write your code here
+       if (url != null && !url.isEmpty()) {
+           if (url.regionMatches(0,"https",0, 5)) {
+               return "https";
+           } else if(url.regionMatches(0,"http",0,4)) {
+               return "http";
+           } else {
+               return "unknown";
+           }
+       }
         return "unknown";
     }
 
     public static String checkDomainExtension(String url) {
-        //write your code here
+        if (url != null && !url.isEmpty()) {
+            if (url.endsWith("com")) {
+                return "com";
+            } else if (url.endsWith("net")) {
+                return "net";
+            } else if (url.endsWith("org")) {
+                return "org";
+            } else if (url.endsWith("us")) {
+                return "us";
+            } else {
+                return "unknown";
+            }
+        }
         return "unknown";
     }
 }
+
+/*
+Alternative solution
+ public static String checkProtocol(String url) {
+       if (url != null && !url.isEmpty()) {
+           if (url.startsWith("https")) {
+               return "https";
+           } else if(url.startsWith("http")) {
+               return "http";
+           } else {
+               return "unknown";
+           }
+       }
+        return "unknown";
+    }
+ */
