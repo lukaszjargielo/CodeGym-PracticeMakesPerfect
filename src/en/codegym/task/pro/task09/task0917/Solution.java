@@ -14,7 +14,15 @@ public class Solution {
     }
 
     public static boolean equal(String first, String second) {
-        //write your code here
-        return false;
+        String s1 = first.intern();
+        String s2 = second.intern();
+        return s1 == s2;
     }
 }
+/*
+Recommended solution
+
+  public static boolean equal(String first, String second) {
+        return first.intern() == second.intern();
+    }
+ */
