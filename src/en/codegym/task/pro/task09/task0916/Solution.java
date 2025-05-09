@@ -10,8 +10,8 @@ public class Solution {
     }
 
     public static String format(String name, int salary) {
-        String phrase = "My name is . I will earn $ a month.";
-        //write your code here
-        return null;
+        String phrase = "My name is %s. I will earn $%d a month.";
+        String fullPhrase = String.format(phrase,name, salary);
+        return fullPhrase;
     }
 }
