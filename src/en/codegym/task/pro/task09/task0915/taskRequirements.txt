@@ -1,0 +1,32 @@
+
+Using a StringTokenizer, split the query variable into parts based on the delimiter variable.
+The maximum possible number of tokens is 6.
+
+Example:
+getTokens("java.util.stream", "\\.") returns the string array {"java", "util", "stream"}
+
+Requirements:
+•	The getTokens(String, String) method needs to use a StringTokenizer.
+•	The getTokens(String, String) method needs to return a String array filled in accordance with the task conditions.
+
+package en.codegym.task.pro.task09.task0915;
+
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+/* 
+StringTokenizer
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        String packagePath = "java.util.stream";
+        String[] tokens = getTokens(packagePath, "\\.");
+        System.out.println(Arrays.toString(tokens));
+    }
+
+    public static String[] getTokens(String query, String delimiter) {
+        //write your code here
+        return null;
+    }
+}
