@@ -11,7 +11,13 @@ public class Solution {
     }
 
     public static String deleteSpaces(String string) {
-        //write your code here
-        return null;
+        return string.replaceAll("\\s", "");
     }
 }
+/*
+Recommended solution
+
+ public static String deleteSpaces(String string) {
+        return string.replace(" ", "");
+    }
+ */
