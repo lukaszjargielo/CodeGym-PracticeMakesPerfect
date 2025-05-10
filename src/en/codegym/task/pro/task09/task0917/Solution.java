@@ -17,8 +17,6 @@ public class Solution {
         String s1 = first.intern();
         String s2 = second.intern();
         return s1 == s2;
-        StringBuilder builder = new StringBuilder();
-        builder.ind
     }
 }
 /*
