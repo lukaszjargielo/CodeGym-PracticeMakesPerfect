@@ -10,6 +10,9 @@ public class Solution {
     }
 
     public static class Cat {
-        //write your code here
+       private String name;
+       private int age;
+       private int weight;
+       private int strength;
     }
 }
