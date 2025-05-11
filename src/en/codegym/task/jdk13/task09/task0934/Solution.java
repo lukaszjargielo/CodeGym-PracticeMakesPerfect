@@ -12,7 +12,24 @@ public class Solution {
     }
 
     public static boolean isPalindrome(String word) {
-        //write your code here
-        return false;
+        if (word == null) {
+            return false;
+        }
+        word = word.toLowerCase();
+        for (int i = 0; i < word.length() / 2; i++) {
+            if (word.charAt(i) != word.charAt(word.length() - 1 - i)) {
+                return false;
+            }
+        }
+        return true;
     }
 }
+/*
+Recommended solution
+
+   public static boolean isPalindrome(String word) {
+        StringBuilder builder = new StringBuilder(word);
+        builder.reverse();
+        return word.equalsIgnoreCase(builder.toString());
+    }
+ */
