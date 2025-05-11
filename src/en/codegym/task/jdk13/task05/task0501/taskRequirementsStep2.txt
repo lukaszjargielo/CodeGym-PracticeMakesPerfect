@@ -1,0 +1,28 @@
+
+Your job is to realize cats in the flesh — in the image and likeness of the Cat class, or more accurately, using it as a template. The number of cats shall be three.
+Fill these three with life, or in other words, specific data.
+
+Requirements:
+•	You need to create a public constructor in the Cat class with the following parameters: String name, int age, int weight, int strength.
+•	In the main (String[]) method, you need to create three Cat objects.
+•	The variables of the Cat class must not be modified.
+•	The program should not display data on the screen.
+
+package en.codegym.task.jdk13.task05.task0501;
+
+/* 
+Cat carnage (1)
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    public static class Cat {
+       private String name;
+       private int age;
+       private int weight;
+       private int strength;
+    }
+}
