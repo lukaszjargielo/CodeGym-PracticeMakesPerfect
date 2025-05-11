@@ -1,0 +1,42 @@
+
+Implement the boolean fight(Cat anotherCat) method: think up a mechanism for cat fighting depending on their weight, age, and strength.
+Compare each attribute separately so that the winner is the one with the best performance in regards to the most attributes.
+
+The method should determine whether the current cat (this) wins the fight or not, i.e. return true if the current cat wins and false if it loses.
+If the fight is a draw and no one wins, then return false.
+
+Requirements:
+•	The Cat class must have only four fields: name, age, weight, and strength. The fields must be private.
+•	The Cat class must have a fight method.
+•	In the fight method, implement the mechanism for feline combat based on their weight, age, and strength in accordance with the task conditions.
+•	The method should return the same value whenever the same cats fight.
+•	If a certain cat1 wins over cat2, then cat2 must lose to cat1.
+•	If there is a tie, then the fight method should return false.
+
+package en.codegym.task.jdk13.task05.task0501;
+
+/* 
+Cat carnage (1)
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Cat cat1 = new Cat("Litchi", 4, 8, 6);
+        Cat cat2 = new Cat("Mango", 4, 9, 10);
+        Cat cat3 = new Cat("Melon", 2, 6, 5);
+
+    }
+    public static class Cat {
+       private String name;
+       private int age;
+       private int weight;
+       private int strength;
+
+        public Cat(String name, int age, int weight, int strength) {
+            this.name = name;
+            this.age = age;
+            this.weight = weight;
+            this.strength = strength;
+        }
+    }
+}
