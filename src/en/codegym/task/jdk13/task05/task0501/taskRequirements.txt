@@ -1,0 +1,25 @@
+You have an empty Cat class created by students at the secret CodeGym lab.
+A cat (Cat class) must have a name (String name), age (int age), weight (int weight), and strength (int strength).
+
+Requirements:
+•	The Cat class must have a String name variable.
+•	The Cat class must have an int age variable.
+•	The Cat class must have an int weight variable.
+•	The Cat class must have an int strength variable.
+•	There should be 4 variables in the class
+
+package en.codegym.task.jdk13.task05.task0501;
+
+/* 
+Cat carnage (1)
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    public static class Cat {
+        //write your code here
+    }
+}
