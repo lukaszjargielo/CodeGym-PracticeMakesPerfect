@@ -8,8 +8,10 @@ public class Solution {
     public static void main(String[] args) {
         Cat cat1 = new Cat("Litchi", 4, 8, 6);
         Cat cat2 = new Cat("Mango", 4, 9, 10);
-        Cat cat3 = new Cat("Melon", 2, 6, 5);
-
+        Cat cat3 = new Cat("Melon", 7, 6, 5);
+        System.out.println(cat1.fight(cat2));
+        System.out.println(cat2.fight(cat1));
+        System.out.println(cat1.fight(cat3));
     }
     public static class Cat {
        private String name;
@@ -22,6 +24,14 @@ public class Solution {
             this.age = age;
             this.weight = weight;
             this.strength = strength;
+        }
+
+        public boolean fight(Cat anotherCat) {
+            int ageComparison = Integer.compare(this.age, anotherCat.age);
+            int weightComparison = Integer.compare(this.weight, anotherCat.weight);
+            int strengthComparison = Integer.compare(this.strength, anotherCat.strength);
+            int score = ageComparison + weightComparison + strengthComparison;
+            return score > 0;
         }
     }
 }
