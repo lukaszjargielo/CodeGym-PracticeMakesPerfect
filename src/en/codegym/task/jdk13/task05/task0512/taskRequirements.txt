@@ -1,0 +1,25 @@
+
+The Circle class must have three initializers:
+
+centerX, centerY, radius
+centerX, centerY, radius, width
+centerX, centerY, radius, width, color
+Requirements:
+•	The Circle class must have int variables centerX, centerY, radius, width and color.
+•	The class must have an initialize method that takes centerX, centerY, and radius as arguments, and initializes the corresponding instance variables.
+•	The class must have an initialize method that takes centerX, centerY, radius, and width as arguments, and initializes the corresponding instance variables.
+•	The class must have an initialize method that takes centerX, centerY, radius, width, and color as arguments, and initializes the corresponding instance variables.
+
+package en.codegym.task.jdk13.task05.task0512;
+
+/* 
+Populate the Circle class
+*/
+
+public class Circle {
+    //write your code here
+
+    public static void main(String[] args) {
+
+    }
+}
