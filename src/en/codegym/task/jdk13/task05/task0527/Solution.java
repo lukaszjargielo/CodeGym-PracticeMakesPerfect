@@ -8,7 +8,8 @@ public class Solution {
     public static void main(String[] args) {
         Mouse jerryMouse = new Mouse("Jerry", 12, 5);
 
-        //write your code here
+        Dog spikeDog = new Dog("Spike", 24, true);
+        Cat tomCat = new Cat("Tom", true, 'M');
     }
 
     public static class Mouse {
@@ -23,5 +24,27 @@ public class Solution {
         }
     }
 
-    //write your code here
+    public static class Dog {
+        private String name;
+        private int weight;
+        private boolean isFurious;
+
+        public Dog(String name, int weight, boolean isFurious) {
+            this.name = name;
+            this.weight = weight;
+            this.isFurious = isFurious;
+        }
+    }
+
+    public static class Cat {
+        private String name;
+        private boolean isHungry;
+        private char sex;
+
+        public Cat(String name, boolean isHungry, char sex) {
+            this.name = name;
+            this.isHungry = isHungry;
+            this.sex = sex;
+        }
+    }
 }
