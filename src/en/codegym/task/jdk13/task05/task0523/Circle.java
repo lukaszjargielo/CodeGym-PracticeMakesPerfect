@@ -7,7 +7,7 @@ Constructor
 public class Circle {
     public Color color;
 
-    public void Circle() {
+    public Circle() {
         color = new Color();
     }
 
