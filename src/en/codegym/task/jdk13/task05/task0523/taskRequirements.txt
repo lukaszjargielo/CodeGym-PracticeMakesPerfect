@@ -1,0 +1,42 @@
+
+Figure out what the program does. Find and fix one bug in the Circle class. Don't change the main method.
+
+Hint: Study the default constructor.
+
+Requirements:
+•	Don't change the main method.
+•	The program should display the word "Red" on the screen.
+•	The Color class's getDescription method must return the value of the variable description.
+•	The Color class's setDescription method must set the value of the variable description.
+
+package en.codegym.task.jdk13.task05.task0523;
+
+/* 
+Constructor
+*/
+
+public class Circle {
+    public Color color;
+
+    public void Circle() {
+        color = new Color();
+    }
+
+    public static void main(String[] args) {
+        Circle circle = new Circle();
+        circle.color.setDescription("Red");
+        System.out.println(circle.color.getDescription());
+    }
+
+    public class Color {
+        String description;
+
+        public String getDescription() {
+            return description;
+        }
+
+        public void setDescription(String description) {
+            this.description = description;
+        }
+    }
+}
