@@ -9,6 +9,7 @@ public class Solution {
         Cat cat1 = new Cat("Litchi", 4, 8, 6);
         Cat cat2 = new Cat("Mango", 4, 9, 10);
         Cat cat3 = new Cat("Melon", 7, 6, 5);
+
         System.out.println(cat1.fight(cat2));
         System.out.println(cat2.fight(cat1));
         System.out.println(cat1.fight(cat3));
