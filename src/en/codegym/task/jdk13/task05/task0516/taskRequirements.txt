@@ -1,0 +1,27 @@
+
+A friend (Friend class) must have three constructors:
+
+Name
+Name, age
+Name, age, sex
+Requirements:
+•	The Friend class must have a String variable name.
+•	The Friend class must have an int variable age.
+•	The Friend class must have a char variable sex.
+•	The class must have a constructor that takes a name as an argument and initializes the corresponding instance variable.
+•	The class must have a constructor that takes a name and age as arguments, and initializes the corresponding instance variables.
+•	The class must have a constructor that takes a name, age, and sex as arguments, and initializes the corresponding instance variables.
+
+package en.codegym.task.jdk13.task05.task0516;
+
+/* 
+You can't buy friends
+*/
+
+public class Friend {
+    //write your code here
+
+    public static void main(String[] args) {
+
+    }
+}
