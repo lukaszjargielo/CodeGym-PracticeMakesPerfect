@@ -1,0 +1,28 @@
+Populate the Friend class
+A friend (Friend class) must have three initializers (three initialize methods):
+Name
+Name, age
+Name, age, sex
+Note: name is a String, age is an int, and sex is a char.
+
+Requirements:
+•	The Friend class must have a String variable name.
+•	The Friend class must have an int variable age.
+•	The Friend class must have a char variable sex.
+•	The class must have an initialize method that takes a name as an argument and initializes the corresponding instance variable.
+•	The class must have an initialize method that takes a name and age as arguments, and initializes the corresponding instance variables.
+•	The class must have an initialize method that takes a name, age, and sex as arguments, and initializes the corresponding instance variables.
+
+package en.codegym.task.jdk13.task05.task0509;
+
+/* 
+Populate the Friend class
+*/
+
+public class Friend {
+    //write your code here
+
+    public static void main(String[] args) {
+
+    }
+}
