@@ -1,0 +1,38 @@
+
+A cat (Cat class) must have five constructors:
+
+Name
+Name, weight, age
+Name, age (standard weight)
+Weight, color (name, address, and age are unknown; the cat is homeless)
+Weight, color, address (someone else's pet)
+The constructor's job is to make the object valid.
+For example, if the weight is unknown, then you need to specify some average weight.
+A cat can't weigh nothing. The same applies to age.
+But there may or may not be a name or address (i.e. the name or address might be null).
+
+Requirements:
+•	The Cat class must have a String name variable.
+•	The Cat class must have an int age variable.
+•	The Cat class must have an int weight variable.
+•	The Cat class must have a String variable address.
+•	The Cat class must have a String variable color.
+•	The class must have a constructor that takes a name as an argument, but initializes all variables except the address.
+•	The class must have a constructor that takes a name, weight, and age as arguments, and initializes all variables except the address.
+•	The class must have a constructor that takes a name and age as arguments, and initializes all variables except the address.
+•	The class must have a constructor that takes a weight and color as arguments, and initializes all variables except the name and address.
+•	The class must have a constructor that takes a weight, color, and address as arguments, and initializes all variables except the name.
+
+package en.codegym.task.jdk13.task05.task0517;
+
+/* 
+Creating cats
+*/
+
+public class Cat {
+    //write your code here
+
+    public static void main(String[] args) {
+
+    }
+}
