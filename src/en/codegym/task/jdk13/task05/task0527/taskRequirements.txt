@@ -1,0 +1,43 @@
+
+Create Dog, Cat, and Mouse classes. Add three fields of your choice to each class. Create objects for the characters in the cartoon "Tom and Jerry". You'll recall there are quite a few.
+
+For example:
+
+Mouse jerryMouse = new Mouse("Jerry", 5, 2)
+where 5 is the height in inches, and 2 is the length of his tail in inches.
+Requirements:
+•	Create a Dog class.
+•	Create a Cat class.
+•	The Dog class must have three variables.
+•	The Cat class must have three variables.
+•	You must create at least one Mouse object.
+•	You must create at least one Dog object.
+•	You must create at least one Cat object.
+
+package en.codegym.task.jdk13.task05.task0527;
+
+/* 
+Tom and Jerry
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Mouse jerryMouse = new Mouse("Jerry", 12, 5);
+
+        //write your code here
+    }
+
+    public static class Mouse {
+        String name;
+        int height;
+        int tail;
+
+        public Mouse(String name, int height, int tail) {
+            this.name = name;
+            this.height = height;
+            this.tail = tail;
+        }
+    }
+
+    //write your code here
+}
