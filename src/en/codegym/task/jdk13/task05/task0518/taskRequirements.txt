@@ -1,0 +1,28 @@
+
+The Dog class must have three constructors:
+
+Name
+Name, height
+Name height, color
+Requirements:
+•	The Dog class must have a String variable name.
+•	The Dog class must have an int variable height.
+•	The Dog class must have a String variable color.
+•	The class must have a constructor that takes a name as an argument and initializes the corresponding instance variable.
+•	The class must have a constructor that takes a name and height as arguments, and initializes the corresponding instance variables.
+•	The class must have a constructor that takes a name, height, and color as arguments, and initializes the corresponding instance variables.
+
+package en.codegym.task.jdk13.task05.task0518;
+
+/* 
+Dog registration
+*/
+
+
+public class Dog {
+    //write your code here
+
+    public static void main(String[] args) {
+
+    }
+}
