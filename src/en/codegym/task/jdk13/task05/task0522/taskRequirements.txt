@@ -1,0 +1,30 @@
+
+Study the Circle class. Write the maximum number of possible constructors with different arguments.
+
+Hint: Don't forget about the default constructor.
+
+Requirements:
+•	The class must have at least three variables.
+•	The class must have a default constructor.
+•	The class must have at least one constructor.
+•	The class must have at least two constructors.
+•	The class must have at least three constructors.
+•	The class must have at least four constructors.
+
+package en.codegym.task.jdk13.task05.task0522;
+
+/* 
+Max constructors
+*/
+
+public class Circle {
+    public double x;
+    public double y;
+    public double radius;
+
+    //write your code here
+
+    public static void main(String[] args) {
+
+    }
+}
