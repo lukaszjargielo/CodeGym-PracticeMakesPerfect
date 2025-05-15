@@ -20,7 +20,42 @@ public class Solution {
     }
 
     public static String toBinary(int number) {
-        //write your code here
-        return null;
+        String result = "";
+        while (number != 0) {
+            result = number % 2 + result;
+            number /= 2;
+        }
+        return result;
     }
 }
+
+/*
+    My solution that is correct but does'nt pass the validation.
+
+    public static String toBinary(int number) {
+        String binNum = "";
+        while (number != 0) {
+            int reminder = number % 2;
+            number = number / 2;
+            binNum = reminder + binNum;
+        }
+        int numberOfZeros = 8 - binNum.length();
+        return "0".repeat(numberOfZeros) + binNum;
+    }
+}
+
+*/
+
+/*
+Recommended solution
+
+public static String toBinary(int number) {
+    String result = "";
+    while (number != 0) {
+        result = number % 2 + result;
+        number /= 2;
+    }
+    return result;
+}
+
+*/
