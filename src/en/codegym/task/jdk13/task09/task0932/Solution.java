@@ -12,7 +12,6 @@ public class Solution {
     }
 
     public static int getWordCount(String string) {
-        //write your code here
-        return 0;
+        return string.split(" ").length;
     }
 }
