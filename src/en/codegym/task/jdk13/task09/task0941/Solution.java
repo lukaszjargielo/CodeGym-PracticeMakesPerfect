@@ -14,8 +14,11 @@ public class Solution {
     }
 
     public static String[] map(String ipv6) {
-        //write your code here
-
-        return null;
+        StringTokenizer stringTokenizer = new StringTokenizer(ipv6, ":");
+        String[] array = new String[stringTokenizer.countTokens()];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = stringTokenizer.nextToken();
+        }
+        return array;
     }
 }
