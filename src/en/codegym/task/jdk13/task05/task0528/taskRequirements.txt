@@ -1,0 +1,24 @@
+
+Display the current date in the following format: "06 15 2018".
+
+Requirements:
+•	The date must contain the month, day, and year, separated by a space.
+•	The month should match the current month.
+•	The day should match the current day.
+•	The year should match the current year.
+•	The entire date should be displayed on a single line.
+
+package en.codegym.task.jdk13.task05.task0528;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/* 
+Display today's date
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        //write your code here
+    }
+}
