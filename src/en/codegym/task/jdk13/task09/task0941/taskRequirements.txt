@@ -1,0 +1,32 @@
+
+In the map method, parse a string representing the IPv6 address and return the result as an array of strings.
+
+For example, for the input string "2001:db8:11a3:9d7:1f34:8a2e:7a0:765d", you need to get an array like this: [2001, db8, 11a3, 9d7, 1f34, 8a2e, 7a0, 765d]
+
+Use a StringTokenizer to parse the string.
+
+Requirements:
+•	The map method must return an IPv6 address as an array of strings as outlined in the task conditions.
+•	You need to use a StringTokenizer.
+
+package en.codegym.task.jdk13.task09.task0941;
+
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+/* 
+IPv6
+*/
+
+public class Solution {
+
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(map("2001:db8:11a3:9d7:1f34:8a2e:7a0:765d")));
+    }
+
+    public static String[] map(String ipv6) {
+        //write your code here
+
+        return null;
+    }
+}
