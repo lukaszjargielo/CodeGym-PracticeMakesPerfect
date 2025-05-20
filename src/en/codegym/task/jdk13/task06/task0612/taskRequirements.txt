@@ -1,0 +1,51 @@
+
+Make a Calculator class, which will have 5 static methods:
+
+int plus(int a, int b) - returns the sum of a and b
+int minus(int a, int b) - returns the difference between a and b
+int multiply(int a, int b) - returns the product of a and b
+double divide(int a, int b) - returns the result of dividing a by b
+double percent(int a, int b) - returns b percent of the number a (for example, percent(4, 50) should return 50% of 4)
+Requirements:
+•	The plus method must return the sum of a and b.
+•	The minus method must return the difference between a and b.
+•	The multiply method must return the product of a and b.
+•	The divide method must return the result of dividing a by b.
+•	The percent method must return b percent of the number a.
+
+package en.codegym.task.jdk13.task06.task0612;
+
+/* 
+Calculator
+*/
+
+public class Calculator {
+    public static int plus(int a, int b) {
+        //write your code here
+        return 0;
+    }
+
+    public static int minus(int a, int b) {
+        //write your code here
+        return 0;
+    }
+
+    public static int multiply(int a, int b) {
+        //write your code here
+        return 0;
+    }
+
+    public static double divide(int a, int b) {
+        //write your code here
+        return 0;
+    }
+
+    public static double percent(int a, int b) {
+        //write your code here
+        return 0;
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
