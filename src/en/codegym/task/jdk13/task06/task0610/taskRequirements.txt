@@ -1,0 +1,48 @@
+In the ConsoleReader class, implement four static methods:
+
+String readString() - reads a string from the keyboard
+int readInt() - reads a number from the keyboard
+double readDouble() - reads a fractional number from the keyboard
+boolean readBoolean() - reads the string "true" or "false" from the keyboard and returns the corresponding boolean value (true or false).
+Please note: in each method, create a variable to read data from the console (BufferedReader or Scanner).
+
+Requirements:
+•	The readString method must read and return a String.
+•	The readInt method must read and return an int.
+•	The readDouble method must read and return a double.
+•	The readBoolean method must read and return a boolean value.
+
+package en.codegym.task.jdk13.task06.task0610;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/* 
+ConsoleReader class
+*/
+
+public class ConsoleReader {
+    public static String readString() throws Exception {
+        //write your code here
+
+    }
+
+    public static int readInt() throws Exception {
+        //write your code here
+
+    }
+
+    public static double readDouble() throws Exception {
+        //write your code here
+
+    }
+
+    public static boolean readBoolean() throws Exception {
+        //write your code here
+
+    }
+
+    public static void main(String[] args) throws Exception {
+
+    }
+}
