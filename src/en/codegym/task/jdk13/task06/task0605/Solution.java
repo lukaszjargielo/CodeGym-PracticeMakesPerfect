@@ -19,7 +19,33 @@ public class Solution {
 
     public static class Body {
         public static void calculateMassIndex(double weight, double height) {
-            // write your code here
+            double result = weight / Math.pow(height,2);
+
+            if (result < 18.5) {
+                System.out.println("Underweight: BMI < 18.5");
+            } else if (result < 25) {
+                System.out.println("Normal: 18.5 <= BMI < 25");
+            } else if (result < 30) {
+                System.out.println("Overweight: 25 <= BMI < 30");
+            } else {
+                System.out.println("Obese: BMI >= 30");
+            }
         }
     }
 }
+/*
+Recommended solution
+
+public static void calculateMassIndex(double weight, double height) {
+            double index = weight / (height * height);
+            if (index < 18.5) {
+                System.out.println("Underweight: BMI < 18.5");
+            } else if (index >= 18.5 && index < 25) {
+                System.out.println("Normal: 18.5 <= BMI < 25");
+            } else if (index >= 25 && index < 30) {
+                System.out.println("Overweight: 25 <= BMI < 30");
+            } else if (index >= 30) {
+                System.out.println("Obese: BMI >= 30");
+            }
+        }
+ */
