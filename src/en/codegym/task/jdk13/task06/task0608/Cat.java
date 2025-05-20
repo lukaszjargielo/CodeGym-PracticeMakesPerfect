@@ -12,13 +12,11 @@ public class Cat {
     }
 
     public static int getCatCount() {
-        //write your code here
-
+       return catCount;
     }
 
     public static void setCatCount(int catCount) {
-        //write your code here
-
+        Cat.catCount = catCount;
     }
 
     public static void main(String[] args) {
