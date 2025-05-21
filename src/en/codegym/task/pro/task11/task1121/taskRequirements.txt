@@ -1,0 +1,24 @@
+
+In this program, an array is filled with the numbers from 0 to 9 and displayed on the screen. But thanks to an error, the program doesn't compile.
+Make the program compile and work correctly.
+
+Requirements:
+•	Correct the error so that the program works correctly.
+
+package en.codegym.task.pro.task11.task1121;
+
+import java.util.Arrays;
+
+/* 
+Forgotten initialization
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        int[] array;
+        for (int i = 0; i < 10; i++) {
+            array[i] = i;
+        }
+        System.out.println(Arrays.toString(array));
+    }
+}
