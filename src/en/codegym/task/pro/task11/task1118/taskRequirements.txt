@@ -1,0 +1,20 @@
+
+Fix a mistake in the code, so that the program compiles and works correctly.
+
+Requirements:
+•	The program must compile and work correctly.
+
+package en.codegym.task.pro.task11.task1118;
+
+/* 
+Imported code
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        if (console.hasNext()) {
+            System.out.println(console.next());
+        }
+    }
+}
