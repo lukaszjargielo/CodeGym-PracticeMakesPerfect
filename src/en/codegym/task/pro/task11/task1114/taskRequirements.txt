@@ -1,0 +1,23 @@
+
+It seems that once again the problem is with the parentheses. But with different ones this time.
+Fix mistakes in the code, so that the program compiles and works correctly.
+
+Requirements:
+•	You need to fix the compilation errors in the main method of the Solution class.
+
+package en.codegym.task.pro.task11.task1114;
+
+/* 
+And parentheses once again
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        int number = 1;
+        if number< 5 {
+            System.out.println("number < 5");
+        } else{
+            System.out.println;
+        }
+    }
+}
