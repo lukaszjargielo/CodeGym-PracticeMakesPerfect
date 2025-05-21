@@ -1,0 +1,18 @@
+The code already has quotation marks, but as it turns out, there are not enough of them.
+Fix mistakes in the code, so that the program compiles and works correctly.
+
+Requirements:
+•	The compilation errors in the main method of the Solution class must be fixed.
+
+package en.codegym.task.pro.task11.task1111;
+
+/* 
+Oh, these damnable quotation marks
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        String string = "Amigo;
+        System.out.println(string);
+    }
+}
