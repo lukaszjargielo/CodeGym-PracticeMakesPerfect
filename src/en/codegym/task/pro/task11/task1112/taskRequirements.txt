@@ -1,0 +1,22 @@
+"Con", "cat", "enation".
+
+
+How would you merge these three strings? Do you remember how to concatenate Strings in Java?
+Fix mistakes in the code, so that the program compiles and works correctly.
+
+Requirements:
+•	You need to fix errors in the main method of the Solution class: you need to use string concatenation when displaying output on the screen.
+
+package en.codegym.task.pro.task11.task1112;
+
+/* 
+Con, Cat, Enation
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        String name = "Diego";
+        int age = 35;
+        System.out.println("Name : "name" Age : "age);
+    }
+}
