@@ -1,0 +1,28 @@
+
+The main method calls the add method, which should increase the value of the salary field of the Solution class by the passed value, but we get 0 when we output the salary field.
+Make the program work correctly.
+
+Requirements:
+•	The Solution class must have a public static int salary field.
+•	The Solution class must have a public static add(int) method with a void return type.
+•	Correct the error so that the program works correctly.
+
+package en.codegym.task.pro.task11.task1122;
+
+/* 
+Instance field shadowing
+*/
+
+public class Solution {
+    public static int salary;
+
+    public static void add(int increase) {
+        int salary = Solution.salary;
+        salary += increase;
+    }
+
+    public static void main(String[] args) {
+        add(100500);
+        System.out.println(salary);
+    }
+}
