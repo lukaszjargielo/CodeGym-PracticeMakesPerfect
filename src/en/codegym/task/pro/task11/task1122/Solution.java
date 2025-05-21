@@ -8,7 +8,6 @@ public class Solution {
     public static int salary;
 
     public static void add(int increase) {
-        int salary = Solution.salary;
         salary += increase;
     }
 
