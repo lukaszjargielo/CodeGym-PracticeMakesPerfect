@@ -22,12 +22,9 @@ public class UniversityGroup {
     }
 
     public void exclude(String excludedStudent) {
-        for (String student : students) {
-            if (student.equals(excludedStudent)) {
-                students.remove(student);
-            }
-        }
+        students.removeIf(student -> student.equals(excludedStudent));
     }
+
 
     public static void main(String[] args) {
         UniversityGroup universityGroup = new UniversityGroup();
@@ -35,3 +32,15 @@ public class UniversityGroup {
         universityGroup.students.forEach(System.out::println);
     }
 }
+/*
+Recommended solution - it can be problematic because after deletion the list size changes, the elements move
+so one element will be skipped during further checking
+
+    public void exclude(String excludedStudent) {
+        for (int i = 0; i < students.size(); i++) {
+            if (students.get(i).equals(excludedStudent)) {
+                students.remove(i);
+            }
+        }
+    }
+ */
