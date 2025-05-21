@@ -1,0 +1,19 @@
+
+Periods and commas are important for more than just punctuation in ordinary text.
+Fix mistakes in the code, so that the program compiles and works correctly.
+
+Requirements:
+•	The compilation errors in the main method of the Solution class must be fixed.
+
+package en.codegym.task.pro.task11.task1110;
+
+/* 
+Period and comma
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        int number = 1
+        System.out.println(number)
+    }
+}
