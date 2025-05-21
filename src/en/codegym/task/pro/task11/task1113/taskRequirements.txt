@@ -1,0 +1,18 @@
+
+It seems we have an extra parenthesis? Or is one missing? Deal with the problem.
+
+Requirements:
+•	You need to fix the compilation errors in the main method of the Solution class.
+
+package en.codegym.task.pro.task11.task1113;
+
+/* 
+Keeping track of parentheses
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        if (System.getProperty("os.name").toLowerCase().contains("windows")) {
+            System.out.println("Windows detected!");
+        }
+    }
