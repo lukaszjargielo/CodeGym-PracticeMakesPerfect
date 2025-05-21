@@ -5,7 +5,7 @@ The long-suffering main method
 */
 
 public class Solution {
-    private static void main(String... errors) {
+    public static void main(String... errors) {
         System.out.println("It works!");
     }
 }
