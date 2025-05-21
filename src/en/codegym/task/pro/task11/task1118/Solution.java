@@ -1,5 +1,6 @@
 package en.codegym.task.pro.task11.task1118;
 
+import java.util.Scanner;
 /* 
 Imported code
 */
