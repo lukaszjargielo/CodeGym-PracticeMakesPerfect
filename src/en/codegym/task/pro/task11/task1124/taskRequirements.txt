@@ -1,0 +1,23 @@
+
+We have a set of classes for making 3-in-1 coffee, but for some reason the coffee won't brew — the task does not compile at present.
+Find and fix one mistake in the code.
+
+Requirements:
+•	The Coffee.java file must have a Coffee class.
+•	The Coffee.java file must have a Sugar class.
+•	The Coffee class must have a public static Milk class.
+•	The program must compile.
+
+package en.codegym.task.pro.task11.task1124;
+
+/* 
+MacCoffee 3 in 1
+*/
+
+public class Coffee {
+    public static class Milk {
+    }
+}
+
+public class Sugar {
+}
