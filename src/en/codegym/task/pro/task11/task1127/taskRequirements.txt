@@ -1,0 +1,55 @@
+
+The extends and implements keywords must be correctly positioned in the provided classes to allow the program to compile.
+
+Requirements:
+•	The SmartFunctions interface must compile.
+•	The SmartPhone class must compile.
+•	The Jphone class must compile.
+•	The Gnusmas class must compile.
+
+package en.codegym.task.pro.task11.task1127;
+
+/* 
+An inherited phone
+*/
+
+public interface SmartFunctions implements BasicFunctions {
+}
+
+
+package en.codegym.task.pro.task11.task1127;
+
+/* 
+An inherited phone
+*/
+
+public class Gnusmas implements SmartPhone {
+}
+
+package en.codegym.task.pro.task11.task1127;
+
+/* 
+An inherited phone
+*/
+
+public class Jphone implements SmartPhone {
+}
+
+
+package en.codegym.task.pro.task11.task1127;
+
+/* 
+An inherited phone
+*/
+
+public class SmartPhone extends SmartFunctions {
+}
+
+package en.codegym.task.pro.task11.task1127;
+
+/* 
+An inherited phone
+*/
+
+public interface BasicFunctions {
+}
