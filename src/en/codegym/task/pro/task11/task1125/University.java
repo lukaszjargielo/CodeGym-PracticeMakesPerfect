@@ -26,9 +26,9 @@ public class University {
     }
 
     public static void main(String[] args) {
-        //write your code here
-        addStudent("Max Feder");
-        addStudent("Jose Hernandez");
-        printStudents();
+        University university = new University();
+        university.addStudent("Max Feder");
+        university.addStudent("Jose Hernandez");
+        university.printStudents();
     }
 }
