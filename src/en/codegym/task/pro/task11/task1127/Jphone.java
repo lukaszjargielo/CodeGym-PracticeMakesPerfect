@@ -4,5 +4,5 @@ package en.codegym.task.pro.task11.task1127;
 An inherited phone
 */
 
-public class Jphone implements SmartPhone {
+public class Jphone extends SmartPhone {
 }
