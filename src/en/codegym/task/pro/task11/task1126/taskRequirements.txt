@@ -1,0 +1,36 @@
+
+The main method of the Solution class creates an instance of the Student class with a specific name, but the program does not compile.
+You need to fix an error in the Student class to allow the program to compile and display the student's name on the console when it runs.
+
+Requirements:
+•	Don't change the main method.
+•	The Student class must have a constructor with one parameter.
+•	The constructor must initialize the name field with the passed argument.
+
+package en.codegym.task.pro.task11.task1126;
+
+/* 
+Student
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Student student = new Student("Amigo");
+        System.out.println(student.name);
+    }
+}
+
+
+package en.codegym.task.pro.task11.task1126;
+
+/* 
+Student
+*/
+
+public class Student {
+    private String name;
+
+    public void Student(String name) {
+        name = name;
+    }
+}
