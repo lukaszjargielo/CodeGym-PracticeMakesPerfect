@@ -16,8 +16,35 @@ public class Solution {
     }
 
     public static String toCustomString(Number number) {
-        //write your code here
-
-        return null;
+        if (number instanceof Byte) {
+            byte result = (byte) number;
+            result = (byte) (result / 2);
+            return "" + result + "b";
+        } else if (number instanceof Integer) {
+            int result = number.intValue();
+            result = result / 3;
+            return "" + result;
+        } else if (number instanceof Double) {
+            double result = number.doubleValue();
+            return result * 20 + "";
+        } else {
+            return UNEXPECTED_TYPE;
+        }
     }
 }
+
+/*
+Recommended solution
+
+    public static String toCustomString(Number number) {
+        if (number instanceof Byte) {
+            return (Byte) number / 2 + "b";
+        } else if (number instanceof Integer) {
+            return String.valueOf((Integer) number / 3);
+        } else if (number instanceof Double) {
+            return String.valueOf((Double) number * 20);
+        } else {
+            return UNEXPECTED_TYPE;
+        }
+    }
+ */
