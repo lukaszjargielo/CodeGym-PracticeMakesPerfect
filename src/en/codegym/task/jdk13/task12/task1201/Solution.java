@@ -13,6 +13,6 @@ public class Solution {
     }
 
     public static double getSquare(long number) {
-        return 0;
+        return (double) number * number;
     }
 }
