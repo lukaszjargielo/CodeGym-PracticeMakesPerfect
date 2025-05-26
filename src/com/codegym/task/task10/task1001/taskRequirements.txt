@@ -1,0 +1,36 @@
+
+Arrange the cast operators correctly to get the required result: d > 0
+
+int a = 0;
+int b = (byte) a + 46;
+byte c = (byte) (a*b);
+double f = (char) 1234.15;
+long d = (short) (a + f / c + b);
+Requirements:
+•	The program should display text on the screen.
+•	Don't change the screen output command.
+•	The main() method must contain an int variable a.
+•	The main() method must contain an int variable b.
+•	The main() method must contain a byte variable c.
+•	The main() method must contain a double variable f.
+•	The main() method must contain a long variable d.
+•	Don't change the initial value of the variables during initialization. You can only edit (add/remove/change) the cast operators.
+•	The program should display a number greater than 0.
+
+package com.codegym.task.task10.task1001;
+
+/* 
+Task No. 1 about integer type conversions
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        int a = 0;
+        int b = (byte) a + 46;
+        byte c = (byte) (a * b);
+        double f = (char) 1234.15;
+        long d = (short) (a + f / c + b);
+        System.out.println(d);
+    }
+}
