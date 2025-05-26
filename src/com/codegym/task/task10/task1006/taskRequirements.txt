@@ -1,0 +1,40 @@
+
+Remove unnecessary operators to get the correct answer:
+result: 1000.0
+
+double d = (short) 2.50256e2d;
+char c = (short) 'd';
+short s = (short) 2.22;
+int i = (short) 150000;
+float f = (short) 0.50f;
+double result = f + (i / c) - (d * s) - 500e-3;
+Requirements:
+•	The program should display text on the screen.
+•	Don't change the screen output command.
+•	The main() method must contain a char variable c.
+•	The main() method must contain a short variable s.
+•	The main() method must contain an int variable i.
+•	The main() method must contain a float variable f.
+•	The main() method must contain a double variable d.
+•	The main() method must contain a double variable result.
+•	Don't change the initial value of the variables during initialization. You can only change the cast operators.
+•	The program should display "result: 1000.0".
+
+package com.codegym.task.task10.task1006;
+
+/* 
+Task No. 6 about integer type conversions
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        double d = (short) 2.50256e2d;
+        char c = (short) 'd';
+        short s = (short) 2.22;
+        int i = (short) 150000;
+        float f = (short) 0.50f;
+        double result = f + (i / c) - (d * s) - 500e-3;
+        System.out.println("result: " + result);
+    }
+}
