@@ -14,14 +14,14 @@ public class Solution {
     }
 
     public static boolean isByte(long l) {
-        return false;
+        return l >= Byte.MIN_VALUE && l <= Byte.MAX_VALUE;
     }
 
     public static boolean isShort(long l) {
-        return false;
+        return l >= Short.MIN_VALUE && l <= Short.MAX_VALUE;
     }
 
     public static boolean isInt(long l) {
-        return false;
+        return l >= Integer.MIN_VALUE && l <= Integer.MAX_VALUE;
     }
 }
