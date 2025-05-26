@@ -15,7 +15,7 @@ public class Solution {
     public static int getDifference(int big) {
         float approx = big;
 
-        //write your code here
-        return 0;
+
+        return big - (int) approx;
     }
 }
