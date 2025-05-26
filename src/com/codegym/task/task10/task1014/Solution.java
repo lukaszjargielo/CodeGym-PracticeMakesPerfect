@@ -7,8 +7,8 @@ Use the fewest number of static modifiers
 
 public class Solution {
     public int A = 5;
-    public int B = 5;
-    public int C = 5;
+    public static int B = 5;
+    public static int C = 5;
     public static int D = 5;
 
     public static void main(String[] args) {
