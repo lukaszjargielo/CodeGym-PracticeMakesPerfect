@@ -1,0 +1,39 @@
+
+Use as few static modifiers as possible to allow the example to be compiled.
+
+Requirements:
+•	The class must have a variable A.
+•	The class must have a variable B.
+•	The class must have a variable C.
+•	The class must have a variable D.
+•	Don't change the main method.
+•	Don't change the getA method.
+
+package com.codegym.task.task10.task1014;
+
+/* 
+Use the fewest number of static modifiers
+
+*/
+
+public class Solution {
+    public int A = 5;
+    public int B = 5;
+    public int C = 5;
+    public static int D = 5;
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        solution.A = 5;
+        solution.B = 5 * B;
+        solution.C = 5 * C * D;
+        Solution.D = 5 * D * C;
+
+        Solution.D = 5;
+    }
+
+    public int getA() {
+        return A;
+    }
+
+}
