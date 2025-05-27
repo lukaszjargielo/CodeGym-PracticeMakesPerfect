@@ -1,0 +1,26 @@
+
+Read 5 numbers from the keyboard and add them to the integers list.
+Find the maximum number in the list.
+Display the found number on the screen.
+Requirements:
+•	The program should read 5 numbers from the keyboard and write them to the integers field of the Solution class.
+•	The program must display the maximum number on the screen.
+
+package en.codegym.task.jdk13.task07.task0708;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+/* 
+The largest number
+*/
+
+public class Solution {
+
+    private static ArrayList<Integer> integers = new ArrayList<>();
+
+    public static void main(String[] args) throws Exception {
+        //write your code here
+    }
+}
