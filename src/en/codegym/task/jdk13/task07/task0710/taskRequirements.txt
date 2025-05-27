@@ -1,0 +1,25 @@
+
+Create a list of strings in the main method.
+Add 10 strings to it from the keyboard, but only add them to the beginning of the list, not the end.
+Use a loop to display the contents, each value on a new line.
+Requirements:
+•	Declare a string list variable and immediately initialize it.
+•	The program should read 10 strings from the keyboard and add them to the list.
+•	The program should add lines to the beginning of the list.
+•	The program should display the list, each value on a new line.
+
+package en.codegym.task.jdk13.task07.task0710;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+/* 
+To the top of the list
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //write your code here
+    }
+}
