@@ -1,0 +1,30 @@
+
+Initialize the list field in the main method.
+Add 5 different strings to the list variable.
+Display the size of the list on the screen.
+Use a loop to display its contents, each value on a new line.
+Note:
+Add strings to the list only after the list is initialized.
+
+Requirements:
+•	The ArrayList<String> list field must be initialized in the main method.
+•	The program should add any 5 strings to the list.
+•	The program should display the size of the list on the screen.
+•	The program should display the contents of the list, each value on a new line.
+
+package en.codegym.task.jdk13.task07.task0707;
+
+import java.util.ArrayList;
+
+/* 
+5 different strings in a list
+*/
+
+public class Solution {
+
+    public static ArrayList<String> list;
+
+    public static void main(String[] args) {
+        //write your code here
+    }
+}
