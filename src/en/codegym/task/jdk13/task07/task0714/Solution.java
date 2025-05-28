@@ -10,6 +10,17 @@ Words in reverse
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //write your code here
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        ArrayList<String> strings = new ArrayList<>();
+
+        for (int i = 0; i < 5; i++) {
+            strings.add(reader.readLine());
+        }
+
+        strings.remove(2);
+
+        for (int i = strings.size() - 1; i >= 0; i--) {
+            System.out.println(strings.get(i));
+        }
     }
 }
