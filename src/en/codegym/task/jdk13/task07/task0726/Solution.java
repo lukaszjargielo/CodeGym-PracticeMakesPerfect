@@ -17,12 +17,15 @@ public class Solution {
 
         while (true) {
             String name = reader.readLine();
-
             if (name == null || name.isEmpty()) {
                 break;
             }
+            int age = Integer.parseInt(reader.readLine());
+            int weight = Integer.parseInt(reader.readLine());
+            int tail = Integer.parseInt(reader.readLine());
 
-            Cat cat = new Cat(name);
+
+            Cat cat = new Cat(name, age, weight, tail);
             CATS.add(cat);
         }
 
@@ -54,3 +57,19 @@ public class Solution {
         }
     }
 }
+
+/*
+Recommended solution
+while (true) {
+            String name = reader.readLine();
+            String age = reader.readLine();
+            String weight = reader.readLine();
+            String tailLength = reader.readLine();
+
+            if (name == null || name.isEmpty()) {
+                break;
+            }
+
+            Cat cat = new Cat(name, Integer.parseInt(age), Integer.parseInt(weight), Integer.parseInt(tailLength));
+            CATS.add(cat);
+ */
