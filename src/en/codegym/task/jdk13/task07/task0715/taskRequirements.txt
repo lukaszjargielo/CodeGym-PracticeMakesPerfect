@@ -1,0 +1,23 @@
+
+Create a string list consisting of the words: "Sam", "I", "Am".
+After each word, insert the word "Ham" into the list.
+Display the result on the screen, each list element on a new line.
+Requirements:
+•	Declare a string list variable and immediately initialize it.
+•	Add the following words to the list: «Sam», «I», «Am».
+•	After each word, add the string «Ham» to the list.
+•	Display the list items on the screen, each on a new line.
+
+package en.codegym.task.jdk13.task07.task0715;
+
+import java.util.ArrayList;
+
+/* 
+More Sam-I-Am
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        //write your code here
+    }
+}
