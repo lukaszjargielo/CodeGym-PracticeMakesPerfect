@@ -1,0 +1,64 @@
+
+Currently, the program reads lines from the keyboard until you enter an empty string.
+All the entered strings are converted to uppercase and displayed on the screen. For example, if the string "Mom" is entered, followed by an empty string, then "MOM" should be displayed.
+The modified program should read lines from the keyboard until you enter an empty string.
+Then it should create a new list of strings using the following algorithm:
+
+if an input string contains an even number of characters, then the string is repeated, separated by a space:
+"qq" -> "qq qq"
+"forty one" -> "forty one forty one"
+if odd, then it is repeated three times:
+"z" -> "z z z"
+"j r" -> "j r j r j r"
+". 1" -> ". 1 . 1 . 1"
+"bug" -> "bug bug bug"
+The program displays the contents of the new list.
+
+Example input:
+Cat
+Cats
+Cat and cats.
+Example output:
+Cat Cat Cat
+Cats Cats
+Cat and cats. Cat and cats. Cat and cats.
+
+Requirements:
+•	The program must read data from the keyboard.
+•	The program should display as many strings as are entered.
+•	If a string has an even number of letters, then you need to duplicate the string (as in the example).
+•	If a string has an odd number of letters, then you need to repeat the string three times (as in the example).
+•	The keyboard should stop reading data from the keyboard as soon as the user enters an empty string (by pressing Enter).
+
+package en.codegym.task.jdk13.task07.task0727;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+/* 
+You need to replace the program's functionality
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        ArrayList<String> strings = new ArrayList<String>();
+        while (true) {
+            String string = reader.readLine();
+            if (string == null || string.isEmpty()) break;
+            strings.add(string);
+        }
+
+        ArrayList<String> resultStrings = new ArrayList<String>();
+        for (String string : strings) {
+            resultStrings.add(string.toUpperCase());
+        }
+
+        for (String resultString : resultStrings) {
+            System.out.println(resultString);
+        }
+    }
+}
