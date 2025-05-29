@@ -1,0 +1,29 @@
+
+Enter 10 numbers from the keyboard and put them in a list.
+Display them in reverse order. Each element on a new line.
+Use only a for loop.
+
+Requirements:
+•	Declare an integer list variable and immediately initialize it.
+•	Read 10 integers from the keyboard and add them to the list.
+•	Display the numbers in reverse order.
+•	Use a for loop.
+
+package en.codegym.task.jdk13.task07.task0719;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+/* 
+Display numbers in reverse order
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        //write your code here
+    }
+}
