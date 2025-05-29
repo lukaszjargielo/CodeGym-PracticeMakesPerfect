@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 
 /* 
 You need to replace the program's functionality
@@ -22,11 +23,30 @@ public class Solution {
 
         ArrayList<String> resultStrings = new ArrayList<String>();
         for (String string : strings) {
-            resultStrings.add(string.toUpperCase());
+            String joined;
+            if (string.length() % 2 == 0) {
+                joined = String.join(" ", Collections.nCopies(2, string));
+            } else {
+                joined = String.join(" ", Collections.nCopies(3, string));
+            }
+            resultStrings.add(joined);
         }
-
         for (String resultString : resultStrings) {
             System.out.println(resultString);
         }
     }
 }
+
+/*
+Recommended solution
+
+ for (String string : strings) {
+            String result;
+            if (string.length() % 2 == 0) {
+                result = string + " " + string;
+            } else {
+                result = string + " " + string + " " + string;
+            }
+            resultStrings.add(result);
+        }
+ */
