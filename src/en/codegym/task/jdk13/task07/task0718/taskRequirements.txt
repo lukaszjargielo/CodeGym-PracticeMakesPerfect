@@ -1,0 +1,26 @@
+
+Read 10 words from the keyboard and add them to a list of strings.
+Determine whether the list is ordered by increasing string length.
+If it is not, then display the index of the first element that violates this order.
+Requirements:
+•	Declare a string list variable and immediately initialize it.
+•	Read 10 lines from the keyboard and add them to the list.
+•	If the list is ordered by increasing string length, then you don't need to display anything.
+•	If the list is not ordered by increasing string length, then display the index of the first element that violates this order.
+
+package en.codegym.task.jdk13.task07.task0718;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+/* 
+Checking the order
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        //write your code here
+    }
+}
