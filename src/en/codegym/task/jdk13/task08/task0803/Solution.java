@@ -20,8 +20,11 @@ public class Solution {
 
 
     public static Map<String, Cat> addCatsToMap(String[] cats) {
-        //write your code here
-
+        Map<String, Cat> catMap = new HashMap<>();
+        for (String cat : cats) {
+            catMap.put(cat, new Cat( cat));
+        }
+        return catMap;
     }
 
 
