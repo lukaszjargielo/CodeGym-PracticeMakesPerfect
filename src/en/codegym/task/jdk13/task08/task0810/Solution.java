@@ -23,11 +23,13 @@ public class Solution {
     }
 
     public static long getGetTimeInMs(List<Object> list) {
-        // write your code here
+        long start = System.nanoTime();
 
         get10000(list);
 
-        // write your code here
+        long stop = System.nanoTime();
+
+        return (stop - start) / 1_000_000;
 
     }
 
@@ -42,3 +44,13 @@ public class Solution {
         }
     }
 }
+
+/*
+Recommended solution
+ public static long getGetTimeInMs(List<Object> list) {
+        Date start = new Date();
+        get10000(list);
+        Date end = new Date();
+        return end.getTime() - start.getTime();
+    }
+ */
