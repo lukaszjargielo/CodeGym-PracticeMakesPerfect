@@ -1,0 +1,46 @@
+
+Implement the 4 methods. Each of them should return the list that is best suited for performing the corresponding operations (i.e. the list that can most quickly perform a large number of operations).
+You don't need to measure anything.
+
+Requirements:
+•	The Solution class must have only 5 methods.
+•	The getListForGet method should return the list that is best suited for get operations.
+•	The getListForSet method should return the list that is best suited for set operations.
+•	The getListForAddOrInsert method should return the list that is best suited for adding or inserting elements.
+•	The getListForRemove method should return the list that is best suited for deleting elements.
+
+package en.codegym.task.jdk13.task08.task0811;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+/* 
+Method quartet
+*/
+
+public class Solution {
+    public static List getListForGet() {
+        //write your code here
+
+    }
+
+    public static List getListForSet() {
+        //write your code here
+
+    }
+
+    public static List getListForAddOrInsert() {
+        //write your code here
+
+    }
+
+    public static List getListForRemove() {
+        //write your code here
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
