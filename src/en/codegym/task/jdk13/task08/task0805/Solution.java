@@ -25,6 +25,8 @@ public class Solution {
     }
 
     public static void printValues(Map<String, String> map) {
-        //write your code here
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println(entry.getValue());
+        }
     }
 }
