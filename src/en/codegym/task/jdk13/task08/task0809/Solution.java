@@ -1,7 +1,6 @@
 package en.codegym.task.jdk13.task08.task0809;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -16,11 +15,13 @@ public class Solution {
     }
 
     public static long getInsertTimeInMs(List list) {
-        // write your code here
+        long start = System.currentTimeMillis();
 
         insert10000(list);
 
-        // write your code here
+        long stop = System.currentTimeMillis();
+
+        return stop - start;
 
     }
 
@@ -30,3 +31,13 @@ public class Solution {
         }
     }
 }
+
+/*
+Recommended solution
+public static long getInsertTimeInMs(List list) {
+        Date start = new Date();
+        insert10000(list);
+        Date end = new Date();
+        return end.getTime() - start.getTime();
+    }
+ */
