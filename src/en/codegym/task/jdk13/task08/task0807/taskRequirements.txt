@@ -1,0 +1,32 @@
+
+You need to create two lists: a LinkedList and an ArrayList.
+
+Requirements:
+•	The program must only have three methods.
+•	The createArrayList() method must create and return an ArrayList.
+•	The createLinkedList() method must create and return a LinkedList.
+
+package en.codegym.task.jdk13.task08.task0807;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+/* 
+LinkedList and ArrayList
+*/
+
+public class Solution {
+    public static Object createArrayList() {
+        //write your code here
+
+    }
+
+    public static Object createLinkedList() {
+        //write your code here
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
