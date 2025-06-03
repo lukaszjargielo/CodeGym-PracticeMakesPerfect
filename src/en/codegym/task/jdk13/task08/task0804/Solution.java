@@ -25,6 +25,8 @@ public class Solution {
     }
 
     public static void printKeys(Map<String, String> map) {
-        //write your code here
+        for(Map.Entry<String, String> pair : map.entrySet()) {
+            System.out.println(pair.getKey());
+        }
     }
 }
