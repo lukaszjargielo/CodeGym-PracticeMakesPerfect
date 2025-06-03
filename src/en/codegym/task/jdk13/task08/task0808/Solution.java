@@ -26,22 +26,60 @@ public class Solution {
     }
 
     public static void insert10000(List list) {
-        //write your code here
+        for (int i = 0; i < 10_000; i++) {
+            list.add("Element" + i);
+        }
 
     }
 
     public static void get10000(List list) {
-        //write your code here
+        for (int i = 0; i < 10_000; i++) {
+            list.get(i);
+        }
 
     }
 
     public static void set10000(List list) {
-        //write your code here
+        for (int i = 0; i < 10_000; i++) {
+            list.set(i, "Component");
+        }
 
     }
 
     public static void remove10000(List list) {
-        //write your code here
-
+        for (int i = 0; i < 10_000; i++) {
+            list.remove(0);
+        }
     }
 }
+
+/*
+Recommended solution
+
+    public static void insert10000(List list) {
+        for (int i = 0; i < 10000; i++) {
+            list.add(0, new Object());
+        }
+    }
+
+    public static void get10000(List list) {
+        for (int i = 0; i < 10000; i++) {
+            list.get(5000);
+        }
+    }
+
+    public static void set10000(List list) {
+        for (int i = 0; i < 10000; i++) {
+            list.set(5000, new Object());
+        }
+    }
+
+    public static void remove10000(List list) {
+        for (int i = 0; i < 10000; i++) {
+            if (list.isEmpty()) {
+                return;
+            }
+            list.remove(0);
+        }
+    }
+ */
