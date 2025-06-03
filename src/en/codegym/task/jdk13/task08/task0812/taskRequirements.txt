@@ -1,0 +1,33 @@
+Longest sequence
+Create a list of numbers.
+Use the keyboard to add 10 numbers to the list.
+Display the length of the longest sequence of repeating numbers in the list.
+Example for the list 2, 4, 4, 4, 8, 8, 9, 12, 12, 14:
+3
+The value is 3, because the longest sequence of repeating numbers is three fours.
+
+Requirements:
+•	The program must display a number on the screen.
+•	The program should read values from the keyboard.
+•	In the main method, declare an List variable with Integer elements and immediately initialize it.
+•	The program should add 10 numbers to the collection in accordance with the conditions.
+•	The program should display the length of the longest sequence of repeating numbers in the list.
+
+package en.codegym.task.jdk13.task08.task0812;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+/* 
+Longest sequence
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        //write your code here
+
+    }
+}
