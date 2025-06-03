@@ -1,0 +1,32 @@
+
+Create an array of 20 numbers. Populate it with numbers from the keyboard. Find the maximum and minimum numbers in the array.
+Display the maximum and minimum numbers, separated by a space.
+
+Requirements:
+•	Create an array and initialize it with a new int[20] value.
+•	Read 20 integers from the keyboard and add them to the array.
+•	Find the maximum and minimum integers, and then display them separated by a space.
+•	Use a for loop.
+
+package en.codegym.task.jdk13.task07.task0721;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/* 
+Maximum and minimum numbers in an array
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        int maximum;
+        int minimum;
+
+        //write your code here
+
+        System.out.print(maximum + " " + minimum);
+    }
+}
