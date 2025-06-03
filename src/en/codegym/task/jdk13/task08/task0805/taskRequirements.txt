@@ -1,0 +1,40 @@
+
+There is a HashMap<String, String>. 10 different strings have been added to it.
+Display a list of values on the screen, each element on a new line.
+
+Requirements:
+•	The program must create a Map variable with (String, String) elements. The variable must be initialized immediately.
+•	The program should not read values from the keyboard.
+•	The program should add 10 different strings to the collection in accordance with the conditions.
+•	The printValues() method should display the values in the collection, each element on a new line.
+
+package en.codegym.task.jdk13.task08.task0805;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/* 
+Values on the screen!
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Map<String, String> map = new HashMap<>();
+        map.put("Sim", "Sim");
+        map.put("Tom", "Tom");
+        map.put("Arbus", "Arbus");
+        map.put("Baby", "Baby");
+        map.put("Cat", "Cat");
+        map.put("Dog", "Dog");
+        map.put("Eat", "Eat");
+        map.put("Food", "Food");
+        map.put("Gevey", "Gevey");
+        map.put("Hugs", "Hugs");
+
+        printValues(map);
+    }
+
+    public static void printValues(Map<String, String> map) {
+        //write your code here
+    }
+}
