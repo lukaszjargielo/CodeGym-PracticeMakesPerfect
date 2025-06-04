@@ -1,0 +1,40 @@
+
+Create a Map<String, String> and add ten entries that represent (last name, first name) pairs.
+Check how many people have the same first name or last name.
+
+Requirements:
+•	The program should not display text on the screen.
+•	The program should not read values from the keyboard.
+•	The createMap() method must create and return a Map that has (String, String) elements and contains 10 entries that represent (last name, first name) pairs.
+•	The getSameFirstNameCount() method must return the number of people whose first name is the same as the name parameter.
+•	The getSameLastNameCount() method must return the number of people whose last name is the same as the lastName parameter.
+
+package en.codegym.task.jdk13.task08.task0815;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/* 
+Census
+*/
+
+public class Solution {
+    public static Map<String, String> createMap() {
+        //write your code here
+
+    }
+
+    public static int getSameFirstNameCount(Map<String, String> map, String name) {
+        //write your code here
+
+    }
+
+    public static int getSameLastNameCount(Map<String, String> map, String lastName) {
+        //write your code here
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
