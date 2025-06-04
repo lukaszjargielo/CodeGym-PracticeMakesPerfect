@@ -1,0 +1,27 @@
+
+You need to create a set of strings (using HashSet) and add 20 words that start with the letter "L".
+
+Requirements:
+•	Don't change the signature of the createSet() method.
+•	The createSet() method must create and return a set (HashSet).
+•	The set returned by the createSet() method must contain 20 words that start with the letter "L".
+
+package en.codegym.task.jdk13.task08.task0813;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/* 
+20 words that start with the letter "L"
+*/
+
+public class Solution {
+    public static Set<String> createSet() {
+        //write your code here
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
