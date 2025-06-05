@@ -1,7 +1,6 @@
 package en.codegym.task.jdk13.task08.task0817;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /* 
 We don't need repeats
@@ -9,12 +8,39 @@ We don't need repeats
 
 public class Solution {
     public static Map<String, String> createMap() {
-        //write your code here
+        Map<String, String> surnamesAndNames = new HashMap<>(Map.of(
+                "Smith", "James",
+                "Johnson", "Emily",
+                "Brown", "David",
+                "Davis", "Sarah",
+                "Miller", "William",
+                "Wilson", "Jessica",
+                "Moore", "David",
+                "Taylor", "Emma",
+                "Anderson", "John",
+                "Thomas", "Olivia"));
+
+        return surnamesAndNames;
 
     }
 
     public static void removeFirstNameDuplicates(Map<String, String> map) {
-        //write your code here
+        List<String> duplicates = new ArrayList<>();
+        Collection<String> values = map.values();
+        for(String value : values) {
+            int counter = 0;
+            for(String name : values) {
+                if (value.equals(name)) {
+                    counter++;
+                    if (counter > 1) {
+                        duplicates.add(value);
+                    }
+                }
+            }
+        }
+        for (String duplicate : duplicates) {
+            removeItemFromMapByValue(map, duplicate);
+        }
 
     }
 
@@ -28,6 +54,28 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
+        /*Map<String, String> map = createMap();
+        removeFirstNameDuplicates(map);
+        System.out.println(map.toString());*/
     }
 }
+
+/*
+Recommended solution
+
+public static void removeFirstNameDuplicates(Map<String, String> map) {
+        Map<String, String> copy = new HashMap<>(map);
+
+        for (String name : copy.values()) {
+            int count = 0;
+            for (String nameTmp : map.values()) {
+                if (nameTmp.equals(name)) {
+                    count++;
+                }
+            }
+            if (count > 1) {
+                removeItemFromMapByValue(map, name);
+            }
+        }
+    }
+ */
