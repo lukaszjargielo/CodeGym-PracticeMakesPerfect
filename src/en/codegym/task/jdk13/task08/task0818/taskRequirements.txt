@@ -1,0 +1,31 @@
+Create a Map<String, Integer> and add ten entries that represent (last name, salary) pairs.
+Remove from the map all people whose salary is below 500.
+
+Requirements:
+•	The program should not display text on the screen.
+•	The program should not read values from the keyboard.
+•	The createMap() method must create and return a Map that has (String, Integer) elements and contains 10 entries that represent (last name, salary) pairs.
+•	The removeItemFromMap() method must remove from the map all people whose salary is below 500.
+
+package en.codegym.task.jdk13.task08.task0818;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/* 
+Only for the rich
+*/
+
+public class Solution {
+    public static Map<String, Integer> createMap() {
+        //write your code here
+    }
+
+    public static void removeItemFromMap(Map<String, Integer> map) {
+        //write your code here
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
