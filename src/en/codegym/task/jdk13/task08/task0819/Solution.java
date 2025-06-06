@@ -11,19 +11,23 @@ public class Solution {
     public static void main(String[] args) {
         Set<Cat> cats = createCats();
 
-        //write your code here. step 3
+        cats.remove(cats.iterator().next());
 
         printCats(cats);
     }
 
     public static Set<Cat> createCats() {
-        //write your code here. step 2
-        return null;
+        Set<Cat> cats = new HashSet<>(Set.of(new Cat(), new Cat(), new Cat()));
+        return cats;
     }
 
     public static void printCats(Set<Cat> cats) {
-        // step 4
+        cats.forEach(System.out::println);
     }
 
-    // step 1
+    public static class Cat {
+
+        public Cat() {
+        }
+    }
 }
