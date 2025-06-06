@@ -1,0 +1,43 @@
+
+Inside the Solution class, create a public static Cat class.
+Implement the createCats method. It must create a Set of cats and add 3 cats to it.
+In the main method, remove one cat from Set cats.
+Implement the printCats method. It should display all the cats that remain in the set. Each cat on a new line.
+Requirements:
+•	The program should display text on the screen.
+•	Inside the Solution class, there must be a public static Cat class with a default constructor.
+•	The Solution class's createCats() method must return a Set containing 3 cats.
+•	The Solution class's printCats() method must display all the cats in the set. Each cat on a new line.
+•	The main() method should call the createCats() method once.
+•	The main() method should call the printCats() method.
+•	The main() method must remove one cat from the set of cats.
+
+package en.codegym.task.jdk13.task08.task0819;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/* 
+Set of cats
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Set<Cat> cats = createCats();
+
+        //write your code here. step 3
+
+        printCats(cats);
+    }
+
+    public static Set<Cat> createCats() {
+        //write your code here. step 2
+        return null;
+    }
+
+    public static void printCats(Set<Cat> cats) {
+        // step 4
+    }
+
+    // step 1
+}
