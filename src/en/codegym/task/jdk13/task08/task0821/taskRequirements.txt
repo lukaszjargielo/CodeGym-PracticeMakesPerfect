@@ -1,0 +1,41 @@
+
+Create a Map<String, String> and add 10 people represented by (last name, first name) pairs.
+Among these 10 people, let there be people who share the same first names.
+Among these 10 people, let there be people who share the same last names.
+Display the contents of the Map on the screen (already implemented).
+Requirements:
+•	The program should display text on the screen.
+•	The Solution class must have only three methods.
+•	The createPeopleMap() method must create and return a Map with (String, String) elements. Also, add 10 people to the map.
+•	In the createPeopleMap() method, you need to add people with the same last name.
+•	In the createPeopleMap() method, you need to add people with the same first name.
+•	The printPeopleMap() method should display all people in the Map. Display each value on a new line. The last name and first name should be separated by a space.
+•	The main() method should call the createPeopleMap() and printPeopleMap() methods.
+
+package en.codegym.task.jdk13.task08.task0821;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/* 
+Shared last names and first names
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Map<String, String> map = createPeopleMap();
+        printPeopleMap(map);
+    }
+
+    public static Map<String, String> createPeopleMap() {
+        //write your code here
+
+        return null;
+    }
+
+    public static void printPeopleMap(Map<String, String> map) {
+        for (Map.Entry<String, String> s : map.entrySet()) {
+            System.out.println(s.getKey() + " " + s.getValue());
+        }
+    }
+}
