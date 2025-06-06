@@ -1,5 +1,6 @@
 package en.codegym.task.jdk13.task08.task0820;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -14,36 +15,41 @@ public class Solution {
 
         Set<Object> pets = join(cats, dogs);
         printPets(pets);
-
+        System.out.println();
         removeCats(pets, cats);
         printPets(pets);
     }
 
     public static Set<Cat> createCats() {
-        Set<Cat> result = new HashSet<Cat>();
-
-        //write your code here
-
+        Set<Cat> result = new HashSet<Cat>(Set.of(new Cat(), new Cat(), new Cat(), new Cat()));
         return result;
     }
 
     public static Set<Dog> createDogs() {
-        //write your code here
-        return null;
+        Set<Dog> dogs = new HashSet<>(Set.of( new Dog(), new Dog(), new Dog()));
+        return dogs;
     }
 
     public static Set<Object> join(Set<Cat> cats, Set<Dog> dogs) {
-        //write your code here
-        return null;
+        Set<Object> pets = new HashSet<>();
+        pets.addAll(cats);
+        pets.addAll(dogs);
+        return pets;
     }
 
     public static void removeCats(Set<Object> pets, Set<Cat> cats) {
-        //write your code here
+        pets.removeAll(cats);
     }
 
     public static void printPets(Set<Object> pets) {
-        //write your code here
+        pets.forEach(System.out::println);
     }
 
-    //write your code here
+    public static class Cat {
+
+    }
+
+    public static class Dog {
+
+    }
 }
