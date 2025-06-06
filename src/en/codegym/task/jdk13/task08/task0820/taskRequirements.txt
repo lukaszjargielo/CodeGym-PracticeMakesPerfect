@@ -1,0 +1,65 @@
+
+Inside the Solution class, create public static classes Cat and Dog.
+Implement the createCats method, which should return a set with 4 cats.
+Implement the createDogs method, which should return a set with 3 dogs.
+Implement the join method, which should return a combined set of all the animals (all the cats and dogs).
+Implement the removeCats method, which should remove from the set pets all cats in the set cats.
+Implement the printPets method, which should display all the animals in the set pets. Each animal should be on a new line.
+Requirements:
+•	The program should display text on the screen.
+•	There should be public static classes Cat and Dog inside the Solution class.
+•	The Solution class's createCats() method must return a Set containing 4 cats.
+•	The Solution class's createDogs() method must return a Set containing 3 dogs.
+•	The Solution class's join() method should return a combined set of all the animals (all the cats and dogs).
+•	The removeCats() method should remove from the set pets all cats in the set cats.
+•	The printPets() method should display all the animals in the set pets. Each animal should be on a new line.
+
+package en.codegym.task.jdk13.task08.task0820;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/* 
+Animal set
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Set<Cat> cats = createCats();
+        Set<Dog> dogs = createDogs();
+
+        Set<Object> pets = join(cats, dogs);
+        printPets(pets);
+
+        removeCats(pets, cats);
+        printPets(pets);
+    }
+
+    public static Set<Cat> createCats() {
+        Set<Cat> result = new HashSet<Cat>();
+
+        //write your code here
+
+        return result;
+    }
+
+    public static Set<Dog> createDogs() {
+        //write your code here
+        return null;
+    }
+
+    public static Set<Object> join(Set<Cat> cats, Set<Dog> dogs) {
+        //write your code here
+        return null;
+    }
+
+    public static void removeCats(Set<Object> pets, Set<Cat> cats) {
+        //write your code here
+    }
+
+    public static void printPets(Set<Object> pets) {
+        //write your code here
+    }
+
+    //write your code here
+}
