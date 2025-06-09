@@ -11,25 +11,39 @@ public class Solution {
 
     public static StackTraceElement[] method1() {
         method2();
-        //write your code here
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        return stackTrace;
     }
 
     public static StackTraceElement[] method2() {
         method3();
-        //write your code here
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        return stackTrace;
     }
 
     public static StackTraceElement[] method3() {
         method4();
-        //write your code here
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        return stackTrace;
     }
 
     public static StackTraceElement[] method4() {
         method5();
-        //write your code here
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        return stackTrace;
     }
 
     public static StackTraceElement[] method5() {
-        //write your code here
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        return stackTrace;
     }
 }
+
+/*
+Recommended solution
+
+   public static StackTraceElement[] method3() {
+        method4();
+        return Thread.currentThread().getStackTrace();
+    }
+ */
