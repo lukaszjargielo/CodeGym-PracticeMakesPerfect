@@ -1,0 +1,41 @@
+
+Use the keyboard to enter the number N.
+Read N integers and put them in a list: the getIntegerList method.
+Find the minimum among the list items: the getMinimum method.
+Requirements:
+•	The program should display text on the screen.
+•	The program should read values from the keyboard.
+•	The Solution class must have only three methods: getMinimum(), getIntegerList() и main().
+•	The getIntegerList() method should read the number N from the keyboard and then return a list of N elements, which has been filled with numbers read from the keyboard.
+•	The getMinimum() method must return the minimum among the list items.
+•	The main() method should call the getIntegerList() method.
+•	The main() method should call the getMinimum() method.
+
+package en.codegym.task.jdk13.task08.task0822;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+/* 
+Minimum of N numbers
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        List<Integer> integerList = getIntegerList();
+        System.out.println(getMinimum(integerList));
+    }
+
+    public static int getMinimum(List<Integer> list) {
+        // Find the minimum here
+        return 0;
+    }
+
+    public static List<Integer> getIntegerList() throws IOException {
+        // Create and initialize a list here
+        return null;
+    }
+}
