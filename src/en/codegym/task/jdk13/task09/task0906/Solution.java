@@ -12,6 +12,20 @@ public class Solution {
     }
 
     public static void log(String text) {
-        //write your code here
+        String fileName = Thread.currentThread().getStackTrace()[2].getFileName();
+        String methodThatCalled = Thread.currentThread().getStackTrace()[2].getMethodName();
+        System.out.println(String.join(": ", fileName, methodThatCalled, text));
     }
 }
+
+/*
+Recommended solution
+public static void log(String text) {
+        StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
+        StackTraceElement element = stackTraceElements[2];
+        String fileName = element.getFileName();
+        String methodName = element.getMethodName();
+        String message = fileName + ": " + methodName + ": " + text;
+        System.out.println(message);
+    }
+ */
