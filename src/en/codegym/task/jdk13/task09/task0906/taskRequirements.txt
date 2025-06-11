@@ -1,0 +1,32 @@
+
+Implement the log method so that it displays the name of the file and method in which it is called, as well as the passed message.
+Use a colon and space to separate the file name, method name, and message.
+
+Example output:
+Solution.java: main: In method
+Getting the file name from a StackTraceElement:
+
+String fileName = element.getFileName();
+Requirements:
+•	In the log method, you need to display a message on the screen.
+•	The displayed message must contain the name of the source file.
+•	The displayed message must contain the name of the method that called the log method.
+•	The displayed message must contain the passed message.
+•	The output must match the example from the task.
+
+package en.codegym.task.jdk13.task09.task0906;
+
+/* 
+Logging stack traces
+*/
+
+public class Solution {
+
+    public static void main(String[] args) {
+        log("In method");
+    }
+
+    public static void log(String text) {
+        //write your code here
+    }
+}
