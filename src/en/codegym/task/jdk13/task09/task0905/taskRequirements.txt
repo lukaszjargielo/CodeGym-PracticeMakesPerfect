@@ -1,0 +1,24 @@
+Implement a method that returns the stack trace depth, i.e. the number of methods in the stack trace.
+In the method, the same number needs to be displayed on the screen.
+
+Requirements:
+•	In the getStackTraceDepth method, you need to return the depth of its stack trace.
+•	In the getStackTraceDepth method, you need to display the depth of its stack trace.
+•	Use Thread.currentThread().getStackTrace().
+•	In the main method, you must call the getStackTraceDepth method.
+
+package en.codegym.task.jdk13.task09.task0905;
+
+/* 
+The method returns a result — the depth of its stack trace
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        int deep = getStackTraceDepth();
+    }
+
+    public static int getStackTraceDepth() {
+        //write your code here
+    }
+}
