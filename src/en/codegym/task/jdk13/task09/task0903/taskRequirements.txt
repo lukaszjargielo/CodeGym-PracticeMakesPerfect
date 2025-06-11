@@ -1,0 +1,45 @@
+
+There are five methods that call each other. You need the method to return the line number of the code from which it was called.
+Use the element.getLineNumber() method.
+
+Requirements:
+•	There should be 5 methods in the class (in addition to the main method).
+•	In each method, you need to make the following calls: call method1 in main, call method2 in method1, etc.
+•	You need to make each method return the line number of the code from which it was called.
+•	To get the line number, use the getLineNumber method of the StackTraceElement class.
+
+package en.codegym.task.jdk13.task09.task0903;
+
+/* 
+Who called me?
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        method1();
+    }
+
+    public static int method1() {
+        method2();
+        return  /*write your code here*/ 0;
+    }
+
+    public static int method2() {
+        method3();
+        return  /*write your code here*/ 0;
+    }
+
+    public static int method3() {
+        method4();
+        return  /*write your code here*/ 0;
+    }
+
+    public static int method4() {
+        method5();
+        return  /*write your code here*/ 0;
+    }
+
+    public static int method5() {
+        return  /*write your code here*/ 0;
+    }
+}
