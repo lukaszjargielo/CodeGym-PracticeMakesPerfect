@@ -11,12 +11,15 @@ public class Solution {
 
     public static int i = (int) (Math.random() * 4);
 
-    public static void main(String[] args) throws Exception {
-        //write your code here
+    public static void main(String[] args) throws ArithmeticException, URISyntaxException {
 
-        method1();
-
-        //write your code here
+        try {
+            method1();
+        } catch (NullPointerException e) {
+            System.out.println(e.getClass().getSimpleName());
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getClass().getSimpleName());
+        }
     }
 
     public static void method1() throws NullPointerException, ArithmeticException, FileNotFoundException, URISyntaxException {
@@ -31,3 +34,16 @@ public class Solution {
         }
     }
 }
+/*
+Recommended solution
+
+public static void main(String[] args) throws Exception {
+        try {
+            method1();
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+ */
