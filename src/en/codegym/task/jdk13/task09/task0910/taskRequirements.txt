@@ -1,0 +1,31 @@
+
+Catch the exception that occurs when the following code is executed:
+
+String s = list.get(18);
+Display the exception on the screen using any means (the output must contain the type of the exception thrown).
+
+Requirements:
+•	The program should display a message on the screen.
+•	The program must have a try-catch block.
+•	The program must catch a specific type of exception that occur on the specified line.
+•	The displayed message must contain the type of exception that occurred.
+•	Don't delete the existing code in the main method.
+
+package en.codegym.task.jdk13.task09.task0910;
+
+import java.util.ArrayList;
+
+/* 
+Exception when working with List collections
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        //write your code here
+
+        ArrayList<String> list = new ArrayList<>();
+        String s = list.get(18);
+
+        //write your code here
+    }
+}
