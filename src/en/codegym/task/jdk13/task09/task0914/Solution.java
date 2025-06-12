@@ -6,12 +6,17 @@ Catching a group of exceptions
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //write your code here
-
-        method1();
-
-        //write your code here
-
+        try {
+            method1();
+        } catch (Exception3 e) {
+            System.out.println(e.getClass().getSimpleName());
+        } catch (Exception2 e) {
+            System.out.println(e.getClass().getSimpleName());
+        } catch (Exception1 e) {
+            System.out.println(e.getClass().getSimpleName());
+        } catch (Exception e) {
+            System.out.println(e.getClass().getSimpleName());
+        }
     }
 
     public static void method1() throws Exception1, Exception2, Exception3 {
@@ -34,3 +39,13 @@ class Exception2 extends Exception1 {
 
 class Exception3 extends Exception2 {
 }
+
+/*
+Recommended solution
+
+try {
+            method1();
+        } catch (Exception exception) {
+            System.out.println(exception);
+        }
+ */
