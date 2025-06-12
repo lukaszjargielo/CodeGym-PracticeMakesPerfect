@@ -6,11 +6,12 @@ Exception while working with strings
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
+        try {
+            String s = null;
+            String m = s.toLowerCase();
+        } catch (NullPointerException e) {
+            System.out.println(e.getClass().getSimpleName());
+        }
 
-        String s = null;
-        String m = s.toLowerCase();
-
-        //write your code here
     }
 }
