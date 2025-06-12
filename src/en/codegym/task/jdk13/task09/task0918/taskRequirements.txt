@@ -1,0 +1,33 @@
+
+There are four classes: MyException, MyException2, MyException3, and MyException4.
+Inherit the classes so that you get any two checked exceptions and any two unchecked exceptions.
+
+Requirements:
+•	The Solution class must have 4 nested classes: MyException, MyException2, MyException3, and MyException4.
+•	All the nested classes must inherit exception classes.
+•	Two of the four classes must be checked exceptions.
+•	Two of the four classes must be unchecked exceptions.
+
+package en.codegym.task.jdk13.task09.task0918;
+
+/* 
+Creating your own exceptions
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    static class MyException {
+    }
+
+    static class MyException2 {
+    }
+
+    static class MyException3 {
+    }
+
+    static class MyException4 {
+    }
+}
+
