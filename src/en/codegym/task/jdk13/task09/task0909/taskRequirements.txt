@@ -1,0 +1,29 @@
+Catch the exception that occurs when the following code is executed:
+
+array[8] = 5;
+Display the exception on the screen using any means (the output must contain the type of the exception thrown).
+
+Requirements:
+•	The program should display a message on the screen.
+•	The program must have a try-catch block.
+•	The program must catch a specific type of exception that occur on the specified line.
+•	The displayed message must contain the type of exception that occurred.
+•	Don't delete the existing code in the main method.
+
+package en.codegym.task.jdk13.task09.task0909;
+
+/* 
+Exception when working with arrays
+*/
+
+public class Solution {
+
+    public static void main(String[] args) {
+        //write your code here
+
+        int[] array = new int[2];
+        array[8] = 5;
+
+        //write your code here
+    }
+}
