@@ -12,10 +12,24 @@ public class Solution {
     public static StatelessBean BEAN = new StatelessBean();
 
     public static void main(String[] args) {
-        handleExceptions();
+try {
+    handleExceptions();
+} catch (Exception e) {
+    BEAN.log(e);
+}
     }
 
-    public static void handleExceptions() {
+    public static void handleExceptions() throws FileSystemException {
+        try {
+            BEAN.throwExceptions();
+        } catch (FileSystemException e) {
+            BEAN.log(e);
+            throw e;
+        } catch (CharConversionException e) {
+            BEAN.log(e);
+        } catch (IOException e) {
+            BEAN.log(e);
+        }
     }
 
     public static class StatelessBean {
@@ -37,3 +51,25 @@ public class Solution {
         }
     }
 }
+
+/*
+Recommended solution
+public static void main(String[] args) {
+        try {
+            handleExceptions();
+        } catch (FileSystemException e) {
+            BEAN.log(e);
+        }
+    }
+
+    public static void handleExceptions() throws FileSystemException {
+        try {
+            BEAN.throwExceptions();
+        } catch (FileSystemException exception) {
+            BEAN.log(exception);
+            throw exception;
+        } catch (IOException exception) {
+            BEAN.log(exception);
+        }
+    }
+ */
