@@ -1,0 +1,47 @@
+
+The method throws two exceptions that inherit Exception, and two exceptions that inherit RuntimeException:
+NullPointerException, ArithmeticException, FileNotFoundException, URISyntaxException.
+
+You need to catch NullPointerException and FileNotFoundException, but not catch an ArithmeticException or URISyntaxException. How do you do that?
+
+Requirements:
+•	In the main method, you must call the method1 method.
+•	In the main method, you must catch the NullPointerException exception.
+•	In the main method, you must catch the FileNotFoundException exception.
+•	Do not catch the ArithmeticException in the main method.
+•	Do not catch the URISyntaxException in the main method.
+•	Don't change the method1 method.
+
+package en.codegym.task.jdk13.task09.task0913;
+
+import java.io.FileNotFoundException;
+import java.net.URISyntaxException;
+
+/* 
+Exceptions
+*/
+
+public class Solution {
+
+    public static int i = (int) (Math.random() * 4);
+
+    public static void main(String[] args) throws Exception {
+        //write your code here
+
+        method1();
+
+        //write your code here
+    }
+
+    public static void method1() throws NullPointerException, ArithmeticException, FileNotFoundException, URISyntaxException {
+        if (i == 0) {
+            throw new NullPointerException();
+        } else if (i == 1) {
+            throw new ArithmeticException();
+        } else if (i == 2) {
+            throw new FileNotFoundException();
+        } else if (i == 3) {
+            throw new URISyntaxException("", "");
+        }
+    }
+}
