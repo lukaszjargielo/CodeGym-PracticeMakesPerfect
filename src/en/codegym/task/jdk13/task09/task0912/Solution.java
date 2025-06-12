@@ -6,11 +6,11 @@ Exception when working with numbers
 
 public class Solution {
     public static void main(String[] args) {
-        //write your code here
-
-        int num = Integer.parseInt("XYZ");
-        System.out.println(num);
-
-        //write your code here
+        try {
+            int num = Integer.parseInt("XYZ");
+            System.out.println(num);
+        } catch (NumberFormatException e) {
+            System.out.println(e.getClass().getSimpleName());
+        }
     }
 }
