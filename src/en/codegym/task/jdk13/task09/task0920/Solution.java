@@ -9,7 +9,11 @@ public class Solution {
         for (int i = 5; i >= 0; i--) {
             System.out.println(i);
 
-            //write your code here
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
