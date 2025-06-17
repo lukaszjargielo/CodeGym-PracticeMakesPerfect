@@ -1,0 +1,33 @@
+
+Rearrange the static modifiers so that the program compiles.
+
+Requirements:
+•	The class must have four variables: A, B, C, D.
+•	Don't change the main method.
+•	Don't change the getA method.
+•	There must be 3 static fields in the class.
+
+package en.codegym.task.jdk13.task09.task0925;
+
+/* 
+Static modifiers are out of place
+*/
+
+public class Solution {
+    public int A = 5;
+    public int B = 2 * A;
+    public int C = A * B;
+    public int D = A * B;
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        solution.A = 5;
+
+        Solution.D = 5;
+    }
+
+    public int getA() {
+        return A;
+    }
+
+}
