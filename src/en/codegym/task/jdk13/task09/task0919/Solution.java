@@ -7,6 +7,15 @@ Dividing by zero
 public class Solution {
 
     public static void main(String[] args) {
-        divideByZero();
+         try {
+             divideByZero();
+         } catch (Exception e) {
+             e.printStackTrace();
+         }
+    }
+
+    public static void divideByZero() {
+        System.out.println(10 / 0);
     }
 }
+
