@@ -9,19 +9,19 @@ Throwing exceptions
 
 public class Solution {
 
-    public void method1() {
+    public void method1() throws Exception {
 
     }
 
-    public void method2() {
+    public void method2() throws IOException{
 
     }
 
-    public void method3() {
+    public void method3() throws RuntimeException{
 
     }
 
-    public void method4() {
+    public void method4() throws IndexOutOfBoundsException{
 
     }
 }
