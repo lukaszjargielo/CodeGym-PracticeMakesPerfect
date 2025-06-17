@@ -14,7 +14,9 @@ public class Solution {
     public static Wolf wolf = new Wolf();
 
     public static void main(String[] args) {
-        // write your code here
+        wolf.ate.add(grandmother);
+        wolf.ate.add(hood);
+        woodcutter.killed.add(wolf);
     }
 
     // Red riding hood
