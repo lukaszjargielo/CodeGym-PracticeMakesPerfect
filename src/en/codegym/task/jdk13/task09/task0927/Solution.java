@@ -15,11 +15,27 @@ public class Solution {
     }
 
     public static Map<String, Cat> createMap() {
-        //write your code here
+        Map<String, Cat> cats = new HashMap<>(Map.of(
+                "Litchi", new Cat("Litchi"),
+                "Mango", new Cat("Mango"),
+                "Kitty", new Cat("Kitty"),
+                "Melon", new Cat("Melon"),
+                "Klara", new Cat("Klara"),
+                "Relaksik", new Cat("Relaksik"),
+                "Wandzia", new Cat("Wandzia"),
+                "Gienia", new Cat("Gienia"),
+                "Moko", new Cat("Moko"),
+                "Kicia", new Cat("Kicia")
+        ));
+        return cats;
     }
 
     public static Set<Cat> convertMapToSet(Map<String, Cat> map) {
-        //write your code here
+        Set<Cat> cats = new HashSet<>();
+        for(Map.Entry<String, Cat> entry : map.entrySet()) {
+            cats.add(entry.getValue());
+        }
+        return cats;
     }
 
     public static void printCatSet(Set<Cat> set) {
@@ -57,3 +73,28 @@ public class Solution {
         }
     }
 }
+
+/*
+Recommended solution
+public static Map<String, Cat> createMap() {
+        HashMap<String, Cat> result = new HashMap<>();
+
+        result.put("Daisy", new Cat("Daisy"));
+        result.put("Dakota", new Cat("Dakota"));
+        result.put("Abbie", new Cat("Abbie"));
+        result.put("Gigi", new Cat("Gigi"));
+        result.put("Grace", new Cat("Grace"));
+        result.put("Holly", new Cat("Holly"));
+        result.put("Tabitha", new Cat("Tabitha"));
+        result.put("Roo", new Cat("Roo"));
+        result.put("Ruby", new Cat("Ruby"));
+        result.put("Lexie", new Cat("Lexie"));
+
+        return result;
+    }
+
+    public static Set<Cat> convertMapToSet(Map<String, Cat> map) {
+        return new HashSet<>(map.values());
+    }
+
+ */
