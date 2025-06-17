@@ -1,0 +1,26 @@
+
+The loop counts down from 5 to 0. Add a delay using Thread.sleep(100);.
+Wrap the sleep call in a try-catch block.
+
+Requirements:
+•	The program should display a countdown from 5 to 0.
+•	The program should display a new number every 100 milliseconds.
+•	The program should use "Thread.sleep(100);".
+•	In the main method, you must use a try-catch block.
+•	Don't throw exceptions in the main metho
+
+package en.codegym.task.jdk13.task09.task0920;
+
+/* 
+Countdown from 5 to 0
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        for (int i = 5; i >= 0; i--) {
+            System.out.println(i);
+
+            //write your code here
+        }
+    }
+}
