@@ -1,0 +1,40 @@
+
+In the createList method:
+
+create a list whose elements are arrays of numbers;
+add to the list five array objects whose lengths are 5, 2, 4, 7, and 0, respectively;
+fill the arrays with any data.
+Requirements:
+•	The program must not read data from the keyboard.
+•	In the createList method, you must declare and initialize an ArrayList<int[]> variable.
+•	In the createList method, you need to return the created list.
+•	In the createList method, you need to add 5 elements to the list.
+•	Each element in the list must be an array of numbers. The length of the first array must be 5; the second — 2; and the rest — 4, 7, and 0, respectively.
+•	The program should display all the arrays in the list. Each array on a new line.
+
+package en.codegym.task.jdk13.task09.task0926;
+
+import java.util.ArrayList;
+
+/* 
+List of number arrays
+*/
+
+public class Solution {
+
+    public static void main(String[] args) {
+        ArrayList<int[]> list = createList();
+        printList(list);
+    }
+
+    public static ArrayList<int[]> createList() {
+        //write your code here
+        return null;
+    }
+
+    public static void printList(ArrayList<int[]> list) {
+        for (int[] array : list) {
+            System.out.println(Arrays.toString(array));
+        }
+    }
+}
