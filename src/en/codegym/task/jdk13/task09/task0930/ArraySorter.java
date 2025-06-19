@@ -1,9 +1,47 @@
 package en.codegym.task.jdk13.task09.task0930;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 public class ArraySorter {
 
     public void sort(String[] array) {
-        //write your code here
+        List<String> words = new ArrayList<>();
+        List<Integer> numbers = new ArrayList<>();
+
+        for (String element : array) {
+            if (isNumber(element)) {
+                numbers.add(Integer.parseInt(element));
+            } else {
+                words.add(element);
+            }
+        }
+
+        numbers.sort(Comparator.reverseOrder());
+
+        for (int i = 0; i < words.size(); i++) {
+            for (int j = i + 1; j < words.size(); j++) {
+                if (isGreaterThan(words.get(i), words.get(j))) {
+                    String temp = words.get(i);
+                    words.set(i, words.get(j));
+                    words.set(j, temp);
+                }
+            }
+        }
+
+        int numbersIndex = 0;
+        int wordsIndex = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            if (isNumber(array[i])) {
+                array[i] = String.valueOf(numbers.get(numbersIndex));
+                numbersIndex++;
+            } else {
+                array[i] = words.get(wordsIndex);
+                wordsIndex++;
+            }
+        }
     }
 
     // String comparison method: 'a' is greater than 'b'
@@ -31,3 +69,28 @@ public class ArraySorter {
         return true;
     }
 }
+
+/*
+Recommended solution
+
+public void sort(String[] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (isNumber(array[i]) && isNumber(array[j])) {
+                    if (Integer.parseInt(array[i]) < Integer.parseInt(array[j])) {
+                        String temp = array[i];
+                        array[i] = array[j];
+                        array[j] = temp;
+                    }
+                } else if (!isNumber(array[i]) && !isNumber(array[j])) {
+                    if (isGreaterThan(array[i], array[j])) {
+                        String temp = array[i];
+                        array[i] = array[j];
+                        array[j] = temp;
+                    }
+                }
+            }
+        }
+    }
+
+ */
