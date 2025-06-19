@@ -13,35 +13,35 @@ public class Solution {
 
     }
 
-    public class Clerk {
+    public class Clerk extends Employee{
 
     }
 
-    public class ITSpecialist {
+    public class ITSpecialist extends Employee{
 
     }
 
-    public class Programmer {
+    public class Programmer extends ITSpecialist{
 
     }
 
-    public class ProjectManager {
+    public class ProjectManager extends ITSpecialist{
 
     }
 
-    public class CTO {
+    public class CTO extends ITSpecialist{
 
     }
 
-    public class OfficeManager {
+    public class OfficeManager extends Clerk{
 
     }
 
-    public class Recruiter {
+    public class Recruiter extends Clerk{
 
     }
 
-    public class Custodian {
+    public class Custodian extends Clerk{
 
     }
 }
