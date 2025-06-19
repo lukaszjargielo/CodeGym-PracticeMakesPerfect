@@ -1,0 +1,68 @@
+
+Write the following nine classes: Employee, Clerk, ITSpecialist, Programmer, ProjectManager, CTO, Recruiter, OfficeManager, and Custodian.
+Make the Programmer, ProjectManager, CTO classes inherit the ITSpecialist class.
+Make the Recruiter, Custodian, and OfficeManager classes inherit the Clerk class.
+Make the Clerk and ITSpecialist classes inherit the Employee class.
+
+Requirements:
+•	The Solution class must contain a public Employee class.
+•	The Solution class must contain a public Clerk class.
+•	The Solution class must contain a public ITSpecialist class.
+•	The Solution class must contain a public Programmer class.
+•	The Solution class must contain a public ProjectManager class.
+•	The Solution class must contain a public CTO class.
+•	The Solution class must contain a public Recruiter class.
+•	The Solution class must contain a public OfficeManager class.
+•	The Solution class must contain a public Custodian class.
+•	The Programmer, ProjectManager, and CTO classes must inherit the ITSpecialist class.
+•	The Recruiter, Custodian, and OfficeManager classes must inherit the Clerk class.
+•	The Clerk and ITSpecialist classes must inherit the Employee class.
+
+
+package com.codegym.task.task11.task1105;
+
+/* 
+IT company
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Employee {
+
+    }
+
+    public class Clerk {
+
+    }
+
+    public class ITSpecialist {
+
+    }
+
+    public class Programmer {
+
+    }
+
+    public class ProjectManager {
+
+    }
+
+    public class CTO {
+
+    }
+
+    public class OfficeManager {
+
+    }
+
+    public class Recruiter {
+
+    }
+
+    public class Custodian {
+
+    }
+}
