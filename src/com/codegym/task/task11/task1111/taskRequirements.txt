@@ -1,0 +1,32 @@
+
+Edit the two classes Adam and Eve.
+Make Eve inherit Adam.
+
+Requirements:
+•	The Solution class must contain an Adam class.
+•	The Adam class must be public.
+•	The Solution class must contain an Eve class.
+•	The Eve class must be public.
+•	The Eve class must inherit the Adam class.
+
+package com.codegym.task.task11.task1111;
+
+/* 
+"He took one of his ribs"
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    // Adam
+    public class Adam {
+
+    }
+
+    // Eve
+    public class Eve {
+
+    }
+}
