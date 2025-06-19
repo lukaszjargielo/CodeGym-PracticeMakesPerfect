@@ -10,25 +10,32 @@ public class Solution {
     }
 
     public class Cat {
+        private String name;
+        private int age;
+        private int weight;
+        private int speed;
 
-        public Cat(String name, int age, int weight) {
-
+        public Cat(String name, int age, int weight, int speed) {
+            this.name = name;
+            this.age = age;
+            this.weight = weight;
+            this.speed = speed;
         }
 
         public String getName() {
-            return null;
+            return this.name;
         }
 
         public int getAge() {
-            return 0;
+            return this.age;
         }
 
         public void setWeight(int weight) {
-
+            this.weight = weight;
         }
 
         public void setSpeed(int speed) {
-
+            this.speed = speed;
         }
     }
 }
