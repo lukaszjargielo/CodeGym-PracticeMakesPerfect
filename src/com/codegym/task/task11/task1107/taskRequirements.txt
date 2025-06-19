@@ -1,0 +1,50 @@
+
+Make some of the Cat class's internal variables private - but only those that will remain accessible via a method.
+
+Requirements:
+•	The variable name in the Cat class must be private.
+•	The variable age in the Cat class must be private.
+•	The variable weight in the Cat class must be public.
+•	There must be three variables in the Cat class.
+•	The Cat class must have private and public variables.
+
+package com.codegym.task.task11.task1107;
+
+/* 
+Our cat is too public!
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Cat {
+        public String name;
+        public int age;
+        public int weight;
+
+        public Cat(String name, int age, int weight) {
+            this.name = name;
+            this.age = age;
+            this.weight = weight;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public int getAge() {
+            return age;
+        }
+
+        public void setAge(int age) {
+            this.age = age;
+        }
+    }
+}
+
