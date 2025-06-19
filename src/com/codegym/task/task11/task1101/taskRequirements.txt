@@ -1,0 +1,30 @@
+
+Edit the following two classes: Horse and Pegasus.
+Make the Pegasus class inherit the Horse class.
+
+Requirements:
+•	The Solution class must contain the Horse class.
+•	The Horse class should be public.
+•	The Solution class must contain the Pegasus class.
+•	The Pegasus class should be public.
+•	The Pegasus class should inherit the Horse class.
+
+package com.codegym.task.task11.task1101;
+
+/* 
+Horse and Pegasus
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Horse {
+
+    }
+
+    public class Pegasus {
+
+    }
+}
