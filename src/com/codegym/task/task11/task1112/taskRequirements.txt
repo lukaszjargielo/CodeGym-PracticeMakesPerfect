@@ -1,0 +1,30 @@
+
+Edit the AppleIPhone and SamsungGalaxyS2 classes.
+Make the SamsungGalaxyS2 class inherit the AppleIPhone class.
+
+Requirements:
+•	The Solution class must contain an AppleIPhone class.
+•	The AppleIPhone class must be public.
+•	The Solution class must contain a SamsungGalaxyS2 class.
+•	The SamsungGalaxyS2 class must be public.
+•	The SamsungGalaxyS2 class must inherit the AppleIPhone class.
+
+package com.codegym.task.task11.task1112;
+
+/* 
+Frenemies
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class AppleIPhone {
+
+    }
+
+    public class SamsungGalaxyS2 {
+
+    }
+}
