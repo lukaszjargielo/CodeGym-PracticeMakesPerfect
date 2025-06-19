@@ -1,0 +1,34 @@
+
+Edit the following three classes: Pet, Cat, and Dog.
+Make the Cat and Dog classes inherit the Pet class.
+
+Requirements:
+•	The Solution class must contain a public Pet class.
+•	The Solution class must contain a public Cat class.
+•	The Solution class must contain a public Dog class.
+•	The Cat class should inherit the Pet class.
+•	The Dog class should inherit the Pet cla
+
+package com.codegym.task.task11.task1102;
+
+/* 
+Pets
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Pet {
+
+    }
+
+    public class Cat {
+
+    }
+
+    public class Dog {
+
+    }
+}
