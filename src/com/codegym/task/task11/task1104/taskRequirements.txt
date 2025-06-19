@@ -1,0 +1,40 @@
+
+Write the following four classes: Employee, Manager, CEO, and Secretary.
+Make the Manager, CEO and Secretary classes inherit the Employee class.
+
+Requirements:
+•	The Solution class must contain a public Employee class.
+•	The Solution class must contain a public Manager class.
+•	The Solution class must contain a public CEO class.
+•	The Solution class must contain a public Secretary class.
+•	The Manager class must inherit the Employee class.
+•	The CEO class must inherit the Employee class.
+•	The Secretary class must inherit the Employee class.
+
+package com.codegym.task.task11.task1104;
+
+/* 
+Hard workers
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Manager {
+
+    }
+
+    public class CEO {
+
+    }
+
+    public class Employee {
+
+    }
+
+    public class Secretary {
+
+    }
+}
