@@ -1,0 +1,45 @@
+
+Look carefully at the methods and add the missing fields.
+
+Requirements:
+•	The Cat class must have a String field name.
+•	The Cat class must have an int field age.
+•	The Cat class must have an int field weight.
+•	The Cat class must have an int field speed.
+•	The Cat class must have 4 fields.
+•	All of the Cat class's fields must be private.
+
+package com.codegym.task.task11.task1110;
+
+/* 
+Don't forget to encapsulate
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Cat {
+
+        public Cat(String name, int age, int weight) {
+
+        }
+
+        public String getName() {
+            return null;
+        }
+
+        public int getAge() {
+            return 0;
+        }
+
+        public void setWeight(int weight) {
+
+        }
+
+        public void setSpeed(int speed) {
+
+        }
+    }
+}
