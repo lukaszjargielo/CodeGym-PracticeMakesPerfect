@@ -1,0 +1,53 @@
+
+Write the following six classes: Animal, Cow, Pig, Sheep, Bull, and Goat.
+Make the Cow, Pig, Sheep, Bull, and Goat classes inherit the Animal class.
+
+Requirements:
+•	The Solution class must contain a public Animal class.
+•	The Solution class must contain a public Cow class.
+•	The Solution class must contain a public Pig class.
+•	The Solution class must contain a public Sheep class.
+•	The Solution class must contain a public Bull class.
+•	The Solution class must contain a public Goat class.
+•	The Cow class must inherit the Animal class.
+•	The Pig class must inherit the Animal class.
+•	The Sheep class must inherit the Animal class.
+•	The Bull class must inherit the Animal class.
+•	The Goat class must inherit the Animal class.
+
+package com.codegym.task.task11.task1103;
+
+/* 
+Interplanetary farm
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Animal {
+
+    }
+
+    public class Cow {
+
+    }
+
+    public class Pig {
+
+    }
+
+    public class Sheep {
+
+    }
+
+    public class Bull {
+
+    }
+
+    public class Goat {
+
+    }
+
+}
