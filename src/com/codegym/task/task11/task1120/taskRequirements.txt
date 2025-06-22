@@ -1,0 +1,46 @@
+
+Create a proper "inheritance chain" for the following classes: House, Cat, Dog, Car, Animal, and Asset.
+
+Requirements:
+•	Inherit the House class properly.
+•	Inherit the Cat class properly.
+•	Inherit the Dog class properly.
+•	Inherit the Car class properly.
+•	Inherit the Animal class properly.
+•	Inherit the Asset class properly.
+
+package com.codegym.task.task11.task1120;
+
+/* 
+Correct inheritance chain: part 5
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class House {
+
+    }
+
+    public class Cat {
+
+    }
+
+    public class Car {
+
+    }
+
+    public class Dog {
+
+    }
+
+    public class Animal {
+
+    }
+
+    public class Asset {
+
+    }
+}
