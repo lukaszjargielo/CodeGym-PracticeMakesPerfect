@@ -1,0 +1,45 @@
+
+Create a proper "inheritance chain" for the following classes: Carnivore, Cow, Dog, Pig, and Animal.
+
+Requirements:
+•	The Solution class must contain a public Carnivore class.
+•	The Solution class must contain a public Cow class.
+•	The Solution class must contain a public Dog class.
+•	The Solution class must contain a public Pig class.
+•	The Solution class must contain a public Animal class.
+•	The Carnivore class must inherit the Animal class.
+•	The Cow class must inherit the Animal class.
+•	The Dog class must inherit the Carnivore class.
+•	The Pig class must inherit the Animal class
+
+package com.codegym.task.task11.task1117;
+
+/* 
+Alternative inheritance chain
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Carnivore {
+
+    }
+
+    public class Cow {
+
+    }
+
+    public class Dog {
+
+    }
+
+    public class Pig {
+
+    }
+
+    public class Animal {
+
+    }
+}
