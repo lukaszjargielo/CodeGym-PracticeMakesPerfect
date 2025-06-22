@@ -1,0 +1,41 @@
+
+Correct the inheritance in the following classes: (Cat, Dog, Pet, House, and Airplane classes)
+
+Requirements:
+•	If necessary, correct the inheritance of the Pet class.
+•	If necessary, correct the inheritance of the Cat class.
+•	If necessary, correct the inheritance of the Dog class.
+•	If necessary, correct the inheritance of the House class.
+•	If necessary, correct the inheritance of the Airplane class.
+
+package com.codegym.task.task11.task1121;
+
+/* 
+Strange unfamiliar code
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Pet extends House {
+
+    }
+
+    public class Cat extends Airplane {
+
+    }
+
+    public class Dog extends Cat {
+
+    }
+
+    public class House extends Dog {
+
+    }
+
+    public class Airplane {
+
+    }
+}
