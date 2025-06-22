@@ -1,0 +1,40 @@
+
+Create a proper "inheritance chain" for the following classes: Pet, Cat, Dog, and Car.
+
+Requirements:
+•	The Solution class must contain a public Pet class.
+•	The Solution class must contain a public Cat class.
+•	The Solution class must contain a public Dog class.
+•	The Solution class must contain a public Car class.
+•	The Cat class should inherit the Pet class.
+•	The Dog class should inherit the Pet class.
+•	The Pet class must not inherit our other classes.
+•	The Car class must not inherit our other classes.
+
+package com.codegym.task.task11.task1118;
+
+/* 
+Urban household
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Pet {
+
+    }
+
+    public class Cat {
+
+    }
+
+    public class Car {
+
+    }
+
+    public class Dog {
+
+    }
+}
