@@ -1,0 +1,41 @@
+
+Add the common base class ChessPiece to the class for each type of chess piece.
+
+Requirements:
+•	Add to the Solution class a public ChessPiece class.
+•	The King class must inherit the ChessPiece class.
+•	The Queen class must inherit the ChessPiece class.
+•	The Rook class must inherit the ChessPiece class.
+•	The Knight class must inherit the ChessPiece class.
+•	The Bishop class must inherit the ChessPiece class.
+•	The Pawn class must inherit the ChessPiece class.
+
+package com.codegym.task.task11.task1122;
+
+/* 
+Save the chess club
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class King {
+    }
+
+    public class Queen {
+    }
+
+    public class Rook {
+    }
+
+    public class Knight {
+    }
+
+    public class Bishop {
+    }
+
+    public class Pawn {
+    }
+}
