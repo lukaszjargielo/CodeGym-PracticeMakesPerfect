@@ -21,8 +21,7 @@ public class Solution {
 
     }
 
-    public class Slave extends Employee
-    qg{
+    public class Slave extends Employee {
 
     }
 

@@ -1,5 +1,7 @@
 package com.codegym.task.task11.task1123;
 
+import java.util.Arrays;
+
 public class Solution {
     public static void main(String[] args) throws Exception {
         int[] data = new int[]{1, 2, 3, 5, -2, -8, 0, 77, 5, 5};
@@ -15,10 +17,11 @@ public class Solution {
             return new Pair<Integer, Integer>(null, null);
         }
 
-        //write your code here
+        int[] arrayCopy = Arrays.copyOf(array, array.length);
+        Arrays.sort(arrayCopy);
 
-        return new Pair<Integer, Integer>(0, 0);
-    }
+        return new Pair<>(arrayCopy[0], arrayCopy[arrayCopy.length - 1]);
+          }
 
 
     public static class Pair<X, Y> {
@@ -31,3 +34,17 @@ public class Solution {
         }
     }
 }
+
+/*
+Recommended solution
+
+  int minimum = array[0];
+        int maximum = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < minimum)
+                minimum = array[i];
+
+            if (array[i] > maximum)
+                maximum = array[i];
+        }
+ */
