@@ -1,0 +1,41 @@
+
+Edit the following four classes: Schoolboy, Student, Employee, and Slave.
+Make Student inherit Schoolboy, Employee inherit Student, and Slave inherit Employee.
+
+Requirements:
+•	The Solution class must contain a public Schoolboy class.
+•	The Solution class must contain a public Student class.
+•	The Solution class must contain a public Employee class.
+•	The Solution class must contain a public Slave class.
+•	The Student class must inherit the Schoolboy class.
+•	The Employee class must inherit the Student class.
+•	The Slave class must inherit the Employee class.
+
+package com.codegym.task.task11.task1115;
+
+/* 
+From student to skilled slave
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+    }
+
+    public class Schoolboy {
+
+    }
+
+    public class Student {
+
+    }
+
+    public class Employee {
+
+    }
+
+    public class Slave {
+
+    }
+
+}
