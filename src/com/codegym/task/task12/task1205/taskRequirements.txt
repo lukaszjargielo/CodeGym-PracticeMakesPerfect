@@ -1,0 +1,44 @@
+
+Write a method that will determine the class of an object passed to it, and returns one of the following values: "Cow", "Whale", "Dog", or "Unknown Animal".
+
+Requirements:
+•	The program must display text on the screen.
+•	Don't change the Cow class.
+•	Don't change the Dog class.
+•	Don't change the Whale class.
+•	Don't change the Pig class.
+•	The getObjectType() method must return one of the following values: "Cow", "Whale", "Dog", or "Unknown Animal", depending on the object passed to it. For instance, it should return "Cow" for Solution.Cow objects.
+
+package com.codegym.task.task12.task1205;
+
+/* 
+Animal identification
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(getObjectType(new Cow()));
+        System.out.println(getObjectType(new Dog()));
+        System.out.println(getObjectType(new Whale()));
+        System.out.println(getObjectType(new Pig()));
+    }
+
+    public static String getObjectType(Object o) {
+        //write your code here
+
+        return "Unknown Animal";
+    }
+
+    public static class Cow {
+    }
+
+    public static class Dog {
+    }
+
+    public static class Whale {
+    }
+
+    public static class Pig {
+    }
+}
