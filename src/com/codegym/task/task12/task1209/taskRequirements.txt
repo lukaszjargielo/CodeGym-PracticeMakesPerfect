@@ -1,0 +1,28 @@
+
+Write the following public static methods: int min(int, int), long min(long, long), double min(double, double).
+Each method must return the minimum of the two numbers passed to it.
+
+Requirements:
+•	The program should not display text on the screen.
+•	The Solution class must have four methods.
+•	The Solution class must have a static int min(int, int) method.
+•	The int min(int, int) method must return the minimum of two ints.
+•	The Solution class must have a static long min(long, long) method.
+•	The long min(long, long) method must return the minimum of two longs.
+•	The Solution class must have a static double min(double, double) method.
+•	The double min(double, double) method must return the minimum of two doubles.
+
+package com.codegym.task.task12.task1209;
+
+/* 
+Three methods and a minimum
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    //write your code here
+}
