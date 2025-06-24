@@ -1,0 +1,24 @@
+
+Write the following two methods: print(int) and print(String).
+
+Requirements:
+•	The program should not display text on the screen.
+•	The Solution class must contain three methods.
+•	The Solution class must contain a static main() method.
+•	The Solution class must contain a static print() method with an int parameter.
+•	The Solution class must contain a static print() method with a String parameter.
+
+package com.codegym.task.task12.task1206;
+
+/* 
+We're on overload!
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    //write your code here
+}
