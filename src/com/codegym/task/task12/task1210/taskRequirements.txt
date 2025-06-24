@@ -1,0 +1,28 @@
+
+Write the following public static methods: int max(int, int), long max(long, long), double max(double, double).
+Each method must return the maximum of the two numbers passed to it.
+
+Requirements:
+•	The program should not display text on the screen.
+•	The Solution class must have four methods.
+•	The Solution class must have a static int max(int, int) method.
+•	The int max(int, int) method must return the maximum of two ints.
+•	The Solution class must have a static long max(long, long) method.
+•	The long max(long, long) method must return the maximum of two longs.
+•	The Solution class must have a static double max(double, double) method.
+•	The double max(double, double) method must return the maximum of two doubles.
+
+package com.codegym.task.task12.task1210;
+
+/* 
+Three methods and a maximum
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    //write your code here
+}
