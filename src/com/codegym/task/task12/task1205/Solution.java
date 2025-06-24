@@ -14,9 +14,15 @@ public class Solution {
     }
 
     public static String getObjectType(Object o) {
-        //write your code here
-
-        return "Unknown Animal";
+        if (o instanceof Cow) {
+            return "Cow";
+        } else if (o instanceof Dog) {
+            return "Dog";
+        } else if (o instanceof Whale) {
+            return "Whale";
+        } else {
+            return "Unknown Animal";
+        }
     }
 
     public static class Cow {
@@ -31,3 +37,18 @@ public class Solution {
     public static class Pig {
     }
 }
+/*
+Recommended solution
+public static String getObjectType(Object o) {
+        if (o instanceof Cow)
+            return "Cow";
+
+        if (o instanceof Dog)
+            return "Dog";
+
+        if (o instanceof Whale)
+            return "Whale";
+
+        return "Unknown Animal";
+    }
+ */
