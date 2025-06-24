@@ -1,3 +1,4 @@
+
 package com.codegym.task.task12.task1203;
 
 /* 
@@ -21,10 +22,16 @@ public class Solution {
     }
 
     public static class Cat extends Pet {
-
+        @Override
+        public Pet getChild() {
+            return new Cat();
+        }
     }
 
     public static class Dog extends Pet {
-
+        @Override
+        public Pet getChild() {
+            return new Dog();
+        }
     }
 }
