@@ -1,0 +1,35 @@
+
+Override the getName method in the Whale class so that the program doesn't display anything on the screen.
+
+Requirements:
+•	The program should not display text on the screen.
+•	The Whale class must inherit the Cow class.
+•	The Whale class must override the getName() method.
+•	The main() method must call the Cow object's getName() method.
+•	Implement the Whale class's getName() method so that the program doesn't display anything on the screen.
+•	The main() method should display the result of calling the getName() method.
+
+package com.codegym.task.task12.task1202;
+
+/* 
+Whales, the descendants of cows
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Cow cow = new Whale();
+
+        System.out.println(cow.getName());
+    }
+
+    public static class Cow {
+        public String getName() {
+            return "I'm a cow";
+        }
+    }
+
+    public static class Whale extends Cow {
+
+    }
+}
