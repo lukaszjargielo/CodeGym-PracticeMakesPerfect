@@ -1,0 +1,25 @@
+
+Write the following two methods: print(int) and print(Integer).
+In the main method, write code that calls both methods.
+
+Requirements:
+•	The Solution class must contain a static main() method.
+•	The Solution class must contain a static void print() method with an int parameter.
+•	The Solution class must contain a static void print() method with an Integer parameter.
+•	The main() method must call the print() method that has an int parameter.
+•	The main() method must call the print() method that has an Integer parameter.
+
+package com.codegym.task.task12.task1207;
+
+/* 
+int and Integer
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    //write your code here
+}
