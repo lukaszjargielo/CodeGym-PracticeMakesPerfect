@@ -1,0 +1,23 @@
+
+Write five print methods using different parameters.
+
+Requirements:
+•	The program should not display text on the screen.
+•	The Solution class must have six methods.
+•	The Solution class must contain a static main() method.
+•	The Solution class must have five static print() methods with different parameters.
+
+package com.codegym.task.task12.task1208;
+
+/* 
+Freedom of the press
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    //write your code here
+}
