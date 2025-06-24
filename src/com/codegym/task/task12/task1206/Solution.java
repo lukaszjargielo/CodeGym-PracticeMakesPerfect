@@ -10,5 +10,11 @@ public class Solution {
 
     }
 
-    //write your code here
+    public static void print(int number) {
+        System.out.println(number);
+    }
+
+    public static void print(String text) {
+        System.out.println(text);
+    }
 }
