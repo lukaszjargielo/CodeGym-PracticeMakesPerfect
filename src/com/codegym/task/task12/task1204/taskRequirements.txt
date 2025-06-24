@@ -1,0 +1,43 @@
+
+Write a method which determines the class type of the object you pass into it, and then displays on the screen the corresponding message: Cat, Dog, Bird, and Lamp.
+
+Requirements:
+•	The program must display text on the screen.
+•	Don't change the Cat class.
+•	Don't change the Dog class.
+•	Don't change the Bird class.
+•	Don't change the Lamp class.
+•	The printObjectType() method must display one of the following messages, depending on the object passed to it. For example, it should display "Lamp" for a Solution.Lamp object.
+
+package com.codegym.task.task12.task1204;
+
+/* 
+Whether it's a bird or a lamp
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        printObjectType(new Cat());
+        printObjectType(new Bird());
+        printObjectType(new Lamp());
+        printObjectType(new Cat());
+        printObjectType(new Dog());
+    }
+
+    public static void printObjectType(Object o) {
+        //write your code here
+    }
+
+    public static class Cat {
+    }
+
+    public static class Dog {
+    }
+
+    public static class Bird {
+    }
+
+    public static class Lamp {
+    }
+}
