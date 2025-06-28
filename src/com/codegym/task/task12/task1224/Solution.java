@@ -15,9 +15,13 @@ public class Solution {
     }
 
     public static String getObjectType(Object o) {
-        //write your code here
+        String objectType = o.getClass().getSimpleName();
+        if (!objectType.equals("Cat") && !objectType.equals("Tiger") && !objectType.equals("Lion") && !objectType.equals("Bull")) {
+            return "Animal";
+        } else {
+            return objectType;
+        }
 
-        return "Animal";
     }
 
     public static class Cat {
@@ -35,3 +39,22 @@ public class Solution {
     public static class Pig {
     }
 }
+
+/*
+Recommended solution
+ public static String getObjectType(Object o) {
+        if (o instanceof Cat)
+            return "Cat";
+
+        if (o instanceof Tiger)
+            return "Tiger";
+
+        if (o instanceof Lion)
+            return "Lion";
+
+        if (o instanceof Bull)
+            return "Bull";
+
+        return "Animal";
+    }
+ */
