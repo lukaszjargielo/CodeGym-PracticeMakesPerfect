@@ -16,9 +16,7 @@ public class Solution {
     }
 
     public static String getObjectType(Object o) {
-        //write your code here
-
-        return "Animal";
+        return o.getClass().getSimpleName();
     }
 
     public static class Cat extends Animal   // <-- Class inheritance!
@@ -40,3 +38,29 @@ public class Solution {
     public static class Animal {
     }
 }
+
+/*
+Recommended solution
+
+ public static String getObjectType(Object o) {
+        if (o instanceof Tiger)
+            return "Tiger";
+
+        if (o instanceof Lion)
+            return "Lion";
+
+        if (o instanceof Bull)
+            return "Bull";
+
+        if (o instanceof Cow)
+            return "Cow";
+
+        if (o instanceof Cat)
+            return "Cat";
+
+        if (o instanceof Animal)
+            return "Animal";
+
+        return null;
+    }
+ */
