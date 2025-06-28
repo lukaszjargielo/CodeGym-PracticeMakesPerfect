@@ -1,0 +1,39 @@
+
+Make the Cat and Dog classes inherit Pet.
+Implement the missing methods.
+The Cat and Dog classes should not be abstract.
+
+Requirements:
+•	The Pet class must be abstract.
+•	The Dog class must not be abstract.
+•	The Cat class must not be abstract.
+•	The Dog class must implement the Pet class's abstract methods.
+•	The Cat class must implement the Pet class's abstract methods.
+
+package com.codegym.task.task12.task1215;
+
+/* 
+Cats should not be abstract!
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    public static abstract class Pet {
+        public abstract String getName();
+
+        public abstract Pet getChild();
+    }
+
+    public static class Cat {
+
+    }
+
+    public static class Dog {
+
+    }
+
+}
