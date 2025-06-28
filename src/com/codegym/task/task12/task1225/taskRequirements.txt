@@ -1,0 +1,61 @@
+
+Write a method that will determine the type of object passed to it.
+The program should display one of the following:
+"Cat", "Tiger", "Lion", "Bull", "Cow" or "Animal".
+
+Note:
+try to determine the type of animal as accurately as possible.
+
+Requirements:
+•	The Solution class must have Cat, Tiger, Lion, Bull, Cow, and Animal classes.
+•	The Solution class must have a String getObjectType(Object o) method.
+•	The getObjectType() method must return "Cat" if a Cat object is passed.
+•	The getObjectType() method must return "Tiger" if a Tiger object is passed.
+•	The getObjectType() method must return "Lion" if a Lion object is passed.
+•	The getObjectType() method must return "Bull" if a Bull object is passed.
+•	The getObjectType() method must return "Cow" if a Cow object is passed.
+•	The getObjectType() method must return "Animal" if an Animal object is passed.
+•	The program should display the result of calling the getObjectType() method.
+
+package com.codegym.task.task12.task1225;
+
+/* 
+Visitors
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(getObjectType(new Cat()));
+        System.out.println(getObjectType(new Tiger()));
+        System.out.println(getObjectType(new Lion()));
+        System.out.println(getObjectType(new Bull()));
+        System.out.println(getObjectType(new Cow()));
+        System.out.println(getObjectType(new Animal()));
+    }
+
+    public static String getObjectType(Object o) {
+        //write your code here
+
+        return "Animal";
+    }
+
+    public static class Cat extends Animal   // <-- Class inheritance!
+    {
+    }
+
+    public static class Tiger extends Cat {
+    }
+
+    public static class Lion extends Cat {
+    }
+
+    public static class Bull extends Animal {
+    }
+
+    public static class Cow extends Animal {
+    }
+
+    public static class Animal {
+    }
+}
