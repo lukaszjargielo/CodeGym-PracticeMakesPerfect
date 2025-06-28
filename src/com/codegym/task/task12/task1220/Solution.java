@@ -10,5 +10,16 @@ public class Solution {
 
     }
 
-    // Add public interfaces and a public class here
+   public abstract class Human implements CanRun, CanSwim
+   {
+
+   }
+
+   public interface CanRun {
+        public void run();
+   }
+
+   public interface CanSwim {
+        public void swim();
+   }
 }
