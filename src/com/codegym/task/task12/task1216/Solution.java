@@ -10,6 +10,10 @@ public class Solution {
 
     }
 
-    // Add an interface here
+   public interface CanFly {
+        public void flyOnTheLevel(int level);
+        public void flyWithTheSpeed(int speed);
+        }
+   }
 
-}
+
