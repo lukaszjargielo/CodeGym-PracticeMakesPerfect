@@ -10,7 +10,7 @@ public class Solution {
 
     }
 
-    public static class Pet {
+    public static abstract class Pet {
         public String getName() {
             return "I'm a kitten";
         }
