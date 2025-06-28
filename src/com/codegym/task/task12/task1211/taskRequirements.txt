@@ -1,0 +1,28 @@
+
+Make the Pet class abstract.
+
+Requirements:
+•	The program should not display text on the screen.
+•	The Pet class must be static.
+•	The Pet class must be abstract.
+•	The Pet class must have only one method called getName().
+
+package com.codegym.task.task12.task1211;
+
+/* 
+Abstract Pet class
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    public static class Pet {
+        public String getName() {
+            return "I'm a kitten";
+        }
+    }
+
+}
