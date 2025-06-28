@@ -1,0 +1,27 @@
+
+Write public CanFly, CanRun, and CanSwim interfaces.
+Add one method to each interface.
+
+Requirements:
+•	The Solution class must have a CanFly interface.
+•	The Solution class must have a CanRun interface.
+•	The Solution class must have a CanSwim interface.
+•	The CanFly interface must have one method.
+•	The CanRun interface must have one method.
+•	The CanSwim interface must have one method.
+
+package com.codegym.task.task12.task1217;
+
+/* 
+Fly, run and swim
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    // Add interfaces here
+
+}
