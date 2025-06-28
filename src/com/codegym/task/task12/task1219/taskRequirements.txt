@@ -1,0 +1,54 @@
+
+We have public CanFly, CanRun, and CanSwim interfaces.
+Add these interfaces to the Human, Duck, Penguin, and Airplane classes.
+
+Requirements:
+•	The Solution class must have a CanFly interface with only one method called fly().
+•	The Solution class must have a CanRun interface with only one method called run().
+•	The Solution class must have a CanSwim interface with only one method called swim().
+•	A human must be able to run and swim.
+•	A Duck should be able to fly, swim, and run.
+•	A Penguin must be able to swim and run.
+•	A Plane must be able to fly and run (gotta get off that runway somehow!)
+
+package com.codegym.task.task12.task1219;
+
+/* 
+Making a human
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    public interface CanFly {
+        public void fly();
+    }
+
+    public interface CanRun {
+        public void run();
+    }
+
+    public interface CanSwim {
+        public void swim();
+    }
+
+
+    public class Human {
+
+    }
+
+    public class Duck {
+
+    }
+
+    public class Penguin {
+
+    }
+
+    public class Airplane {
+
+    }
+}
