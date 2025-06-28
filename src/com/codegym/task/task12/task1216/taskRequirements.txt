@@ -1,0 +1,25 @@
+
+Write your very own public CanFly interface.
+Add two methods to it.
+
+Requirements:
+•	The Solution class must have a CanFly interface.
+•	The CanFly interface must be public.
+•	The CanFly interface must have two methods.
+•	The CanFly interface must not have a parent.
+
+package com.codegym.task.task12.task1216;
+
+/* 
+Wanna fly?
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    // Add an interface here
+
+}
