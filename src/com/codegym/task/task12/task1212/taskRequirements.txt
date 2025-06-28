@@ -1,0 +1,32 @@
+
+Correct the code so the program will compile.
+
+Hint:
+The getChild method must remain abstract.
+
+Requirements:
+•	The Pet class must be static.
+•	The Pet class must have two methods.
+•	The getChild() method must be abstract.
+•	The Pet class must be declared with a modifier that prevents the creation of objects of this class.
+
+package com.codegym.task.task12.task1212;
+
+/* 
+"Fix the code", part 1
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    public static class Pet {
+        public String getName() {
+            return "I'm a kitten";
+        }
+
+        public abstract Pet getChild();
+    }
+}
