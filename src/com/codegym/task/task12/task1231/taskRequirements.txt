@@ -1,0 +1,47 @@
+
+You need to place the abstract keyword in the right places so that the program will compile.
+Add abstract where needed and delete it where it isn't needed.
+
+Requirements:
+•	The Pegasus class must implement the CanFly interface.
+•	The Pegasus class must inherit the Horse class.
+•	The SwimmingPegasus class must inherit the Pegasus class.
+•	You should be able to create a Horse object.
+•	You should be able to create a Pegasus object.
+•	The SwimmingPegasus class's swim() method must not be implemented.
+
+package com.codegym.task.task12.task1231;
+
+/* 
+Useless abstractions
+
+*/
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Horse horse = new Pegasus();
+        horse.run();
+    }
+
+    public static interface CanFly {
+        public abstract void fly();
+    }
+
+    public static abstract class Horse {
+        public void run() {
+
+        }
+    }
+
+    public static class Pegasus extends Horse implements CanFly {
+        public abstract void fly() {
+
+        }
+    }
+
+    public static class SwimmingPegasus extends Pegasus {
+        public void swim();
+    }
+
+}
