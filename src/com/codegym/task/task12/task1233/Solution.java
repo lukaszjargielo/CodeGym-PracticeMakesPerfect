@@ -20,9 +20,17 @@ public class Solution {
             return new Pair<Integer, Integer>(null, null);
         }
 
-        //here write your code
+        Integer x = array[0];
+        Integer y = 0;
 
-        return new Pair<Integer, Integer>(0, 0);
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < x) {
+                x = array[i];
+                y = i;
+            }
+        }
+
+        return new Pair<Integer, Integer>(x, y);
     }
 
 
@@ -37,3 +45,22 @@ public class Solution {
     }
 }
 
+/*
+Recommended solution
+
+    public static Pair<Integer, Integer> getMinimumAndIndex(int[] array) {
+        if (array == null || array.length == 0) {
+            return new Pair<Integer, Integer>(null, null);
+        }
+
+        int index = 0;
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < array[index]) {
+                index = i;
+            }
+
+        }
+
+        return new Pair<Integer, Integer>(array[index], index);
+    }
+ */
