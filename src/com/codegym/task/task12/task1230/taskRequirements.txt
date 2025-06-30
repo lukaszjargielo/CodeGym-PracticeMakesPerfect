@@ -1,0 +1,34 @@
+
+Add one more method so that the program displays the number 10.
+
+Hint:
+use method overloading.
+
+Requirements:
+•	The Solution class must contain three methods.
+•	The overloaded transformValue method must double the number passed to it.
+•	Don't change the type and value of the i variable.
+•	Don't change the type and value of the x variable.
+•	Don't change the screen output command.
+•	The main method should only call the transformValue method once.
+•	The program should display the number 10.
+
+package com.codegym.task.task12.task1230;
+
+/* 
+Making the top ten
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Integer i = 5;
+        int x = transformValue(i);
+
+        System.out.println(x);
+    }
+
+    public static int transformValue(int i) {
+        return i * i;
+    }
+}
