@@ -1,0 +1,51 @@
+
+The CanFly, CanSwim, and CanRun interfaces have already been written for you.
+Add these interfaces to the Duck, Penguin, and Toad classes.
+
+Requirements:
+•	The Solution class must have a CanFly interface with a void fly() method.
+•	The Solution class must have a CanSwim interface with a void swim() method.
+•	The Solution class must have a CanRun interface with a void run() method.
+•	The Solution class must have Duck, Penguin, and Toad classes.
+•	A Duck object must be able to fly (support the CanFly interface), run (support the CanRun interface), and swim (support the CanSwim interface).
+•	A Penguin object must be able to run (support the CanRun interface) and swim (support the CanSwim interface).
+•	A Toad object must only be able to swim (support the CanSwim interface).
+
+package com.codegym.task.task12.task1227;
+
+/* 
+CanFly, CanRun, and CanSwim for the Duck, Penguin, and Toad classes
+
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+
+    }
+
+    public interface CanFly {
+        public void fly();
+    }
+
+    public interface CanRun {
+        public void run();
+    }
+
+    public interface CanSwim {
+        public void swim();
+    }
+
+    public class Duck {
+
+    }
+
+    public class Penguin {
+
+    }
+
+    public class Toad {
+
+    }
+}
+
+
