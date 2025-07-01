@@ -23,6 +23,26 @@ public class Solution {
         void sleepOnTheFloor();
     }
 
-    public static class BeerLover {
+    public static class BeerLover implements Alcoholic{
+        @Override
+        public void sleepOnTheFloor() {
+            System.out.println("Hapsiu-hapsiu");
+        }
+
+        @Override
+        public void askForMore(String message) {
+            //System.out.println(STR."Innkeeper, \{message}"); this code is too modern for the server's compiler.
+            System.out.println("Innkeeper, " + message);
+        }
+
+        @Override
+        public void sayThankYou() {
+            System.out.println("Very good liquor, thanks!");
+        }
+
+        @Override
+        public boolean isReadyToGoHome() {
+            return READY_TO_GO_HOME;
+        }
     }
 }
