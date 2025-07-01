@@ -1,0 +1,36 @@
+
+Implement the Drink interface in the Beer and Cola classes.
+
+Requirements:
+•	The Beer class must implement the Drink interface.
+•	The Cola class must implement the Drink interface.
+•	The Beer class must implement all of the Drink interface's methods.
+•	The Cola class must implement all of the Drink interface's methods.
+
+package com.codegym.task.task13.task1303;
+
+/* 
+Don't mix beer with cola
+
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        print(new Beer());
+        print(new Cola());
+    }
+
+    private static void print(Drink drink) {
+        System.out.println(drink.getClass().getSimpleName());
+    }
+
+    public interface Drink {
+        boolean isAlcoholic();
+    }
+
+    public static class Beer {
+    }
+
+    public static class Cola {
+    }
+}
